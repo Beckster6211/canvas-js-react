@@ -1,6 +1,6 @@
 import "./App.css";
-import Birthday from "./components/birthday";
-import Mickey from "./components/mickey";
+import Birthday from "./components/birthday/birthday";
+import Mickey from "./components/mickey/mickey";
 
 function App() {
   return (
