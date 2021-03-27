@@ -176,6 +176,8 @@ function PandaTrex() {
     context.strokeStyle = "black";
     context.stroke();
     context.closePath();
+
+    ///t-rex
   }
   return (
     <div className="App">
