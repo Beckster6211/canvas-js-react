@@ -178,6 +178,18 @@ function PandaTrex() {
     context.closePath();
 
     ///t-rex
+    //tail
+    context.beginPath();
+    context.moveTo(290, 130);
+    context.lineTo(270, 115);
+    context.lineTo(261, 133);
+    context.lineTo(290, 130);
+    context.fillStyle = "green";
+    context.fill();
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
   }
   return (
     <div className="App">
