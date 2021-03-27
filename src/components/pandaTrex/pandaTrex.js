@@ -186,9 +186,9 @@ function PandaTrex() {
     context.lineTo(290, 130);
     context.fillStyle = "green";
     context.fill();
-    context.lineWidth = 1;
-    context.strokeStyle = "black";
-    context.stroke();
+    // context.lineWidth = 1;
+    // context.strokeStyle = "black";
+    // context.stroke();
     context.closePath();
   }
   return (
