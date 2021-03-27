@@ -42,7 +42,6 @@ function Birthday() {
     context.scale(scaleX, scaleY);
     context.clearRect(0, 0, canvas.clientWidth, canvas.clientHeight);
 
-    context.beginPath();
     //background
     context.beginPath();
     context.rect(0, 0, 2000, 1000);
@@ -210,7 +209,6 @@ function Birthday() {
     context.rect(131, 80, 4, 15);
     context.fillStyle = "white";
     context.fill();
-
     context.closePath();
     //pattern
     context.beginPath();
@@ -498,7 +496,7 @@ function Birthday() {
     context.strokeStyle = "black";
     context.stroke();
     context.closePath();
-    context.beginPath();
+
     //smile
     context.beginPath();
     context.bezierCurveTo(253, 125, 265, 140, 277, 125);
