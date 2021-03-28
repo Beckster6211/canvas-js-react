@@ -45,7 +45,7 @@ function PandaTrex() {
     //background
     context.beginPath();
     context.rect(0, 0, 2000, 1000);
-    context.fillStyle = "beige";
+    context.fillStyle = "skyBlue";
     context.fill();
     context.closePath();
 
@@ -181,6 +181,28 @@ function PandaTrex() {
     ///////////////////t-rex
     // head
     // higher
+    //teeth
+    context.beginPath();
+    context.moveTo(237, 60);
+    context.lineTo(237, 64);
+    context.lineTo(241, 64);
+    context.fillStyle = "white";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.moveTo(241, 64);
+    context.lineTo(246, 67);
+    context.lineTo(241, 67);
+    context.fillStyle = "white";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.moveTo(246, 67);
+    context.lineTo(246, 70);
+    context.lineTo(250, 70);
+    context.fillStyle = "white";
+    context.fill();
+    context.closePath();
     context.beginPath();
     context.moveTo(237, 60);
     context.lineTo(274, 89);
@@ -193,7 +215,6 @@ function PandaTrex() {
     context.strokeStyle = "black";
     context.stroke();
     context.closePath();
-    //teeth
 
     //hind leg
     /////////
