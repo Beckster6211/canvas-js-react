@@ -179,11 +179,40 @@ function PandaTrex() {
     context.closePath();
 
     ///t-rex
+    // head
+    // higher
+    context.beginPath();
+    context.moveTo(237, 60);
+    context.lineTo(274, 89);
+    context.lineTo(269, 64);
+    context.lineTo(247, 49);
+    context.lineTo(237, 60);
+    context.fillStyle = "green";
+    context.fill();
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
     // body
     context.beginPath();
     context.ellipse(258, 105, 29, 18, Math.PI / 1.8, 0, Math.PI * 2);
     context.fillStyle = "green";
     context.fill();
+    context.closePath();
+    context.beginPath();
+    context.bezierCurveTo(274, 87, 280, 100, 274, 115);
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.bezierCurveTo(250, 81, 224, 115, 252, 133);
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.bezierCurveTo(252, 133, 256, 134, 259, 133);
     context.lineWidth = 1;
     context.strokeStyle = "black";
     context.stroke();
@@ -204,6 +233,34 @@ function PandaTrex() {
     context.stroke();
     context.moveTo(290, 130);
     context.lineTo(259.5, 133.5);
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+
+    //lower jaw
+    context.beginPath();
+    context.rect(235, 72, 25, 9);
+    context.fillStyle = "green";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.moveTo(235, 72);
+    context.lineTo(251, 72);
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.moveTo(235, 72);
+    context.lineTo(235, 81);
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.moveTo(235, 81);
+    context.lineTo(251, 81);
     context.lineWidth = 1;
     context.strokeStyle = "black";
     context.stroke();
