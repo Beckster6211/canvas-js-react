@@ -45,7 +45,7 @@ function PandaTrex() {
     //background
     context.beginPath();
     context.rect(0, 0, 2000, 1000);
-    context.fillStyle = "skyBlue";
+    context.fillStyle = "mediumPurple";
     context.fill();
     context.closePath();
 
