@@ -193,6 +193,33 @@ function PandaTrex() {
     context.strokeStyle = "black";
     context.stroke();
     context.closePath();
+    //hind leg
+    /////////
+    context.beginPath();
+    context.arc(233, 124, 6, 0, Math.PI * 2, false);
+    context.fillStyle = "green";
+    context.fill();
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(242, 119, 13, 8, Math.PI / 1.2, 0, Math.PI * 2);
+    context.fillStyle = "green";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.bezierCurveTo(231, 118, 234, 115, 239, 112);
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.bezierCurveTo(237, 129, 244, 127, 244, 126);
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
     // body
     context.beginPath();
     context.ellipse(258, 105, 29, 18, Math.PI / 1.8, 0, Math.PI * 2);
@@ -211,12 +238,12 @@ function PandaTrex() {
     context.strokeStyle = "black";
     context.stroke();
     context.closePath();
-    context.beginPath();
-    context.bezierCurveTo(252, 133, 256, 134, 259, 133);
-    context.lineWidth = 1;
-    context.strokeStyle = "black";
-    context.stroke();
-    context.closePath();
+    // context.beginPath();
+    // context.bezierCurveTo(252, 133, 256, 134, 259, 133);
+    // context.lineWidth = 1;
+    // context.strokeStyle = "red";
+    // context.stroke();
+    // context.closePath();
     //tail
     context.beginPath();
     context.moveTo(290, 130);
@@ -261,6 +288,41 @@ function PandaTrex() {
     context.beginPath();
     context.moveTo(235, 81);
     context.lineTo(251, 81);
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    //legs
+    //hind
+    context.beginPath();
+    context.arc(243, 137, 6, 0, Math.PI * 2, false);
+    context.fillStyle = "green";
+    context.fill();
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.arc(260, 125, 8, 0, Math.PI * 2, false);
+    context.fillStyle = "green";
+    context.fill();
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(253, 130, 13, 8, Math.PI / 1.2, 0, Math.PI * 2);
+    context.fillStyle = "green";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.bezierCurveTo(241, 131, 246, 125, 253, 121);
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.bezierCurveTo(248, 140, 263, 135, 262, 133);
     context.lineWidth = 1;
     context.strokeStyle = "black";
     context.stroke();
