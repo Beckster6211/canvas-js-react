@@ -65,6 +65,7 @@ function PandaTrex() {
     context.fillStyle = "black";
     context.fill();
     context.closePath();
+    ///////
     context.beginPath();
     context.ellipse(77, 83, 16, 6, Math.PI / 3, 0, Math.PI * 2);
     context.fillStyle = "black";
@@ -178,17 +179,34 @@ function PandaTrex() {
     context.closePath();
 
     ///t-rex
+    // body
+    context.beginPath();
+    context.ellipse(258, 105, 29, 18, Math.PI / 1.8, 0, Math.PI * 2);
+    context.fillStyle = "green";
+    context.fill();
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
     //tail
     context.beginPath();
     context.moveTo(290, 130);
-    context.lineTo(270, 115);
-    context.lineTo(261, 133);
-    context.lineTo(290, 130);
+    context.lineTo(274, 115);
+    context.lineTo(258, 134);
     context.fillStyle = "green";
     context.fill();
-    // context.lineWidth = 1;
-    // context.strokeStyle = "black";
-    // context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.moveTo(290, 130);
+    context.lineTo(274, 115);
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.moveTo(290, 130);
+    context.lineTo(259.5, 133.5);
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
     context.closePath();
   }
   return (
