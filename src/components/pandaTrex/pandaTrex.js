@@ -635,7 +635,7 @@ function PandaTrex() {
     context.beginPath();
     context.font = "10px Comic Sans MS";
     context.fillStyle = "black";
-    context.fillText("short?", 113, 70);
+    context.fillText("small?", 113, 70);
     context.closePath();
     // trex
     context.beginPath();
