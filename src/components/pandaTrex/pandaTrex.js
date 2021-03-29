@@ -216,6 +216,34 @@ function PandaTrex() {
     context.strokeStyle = "black";
     context.stroke();
     context.closePath();
+    //nostrils
+    context.beginPath();
+    context.arc(247, 50, 3.5, 0, Math.PI * 2, false);
+    context.fillStyle = "green";
+    context.fill();
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.arc(247, 51.5, 1.5, 0, Math.PI * 2, false);
+    context.fillStyle = "black";
+    context.fill();
+    context.closePath();
+    //////
+    context.beginPath();
+    context.arc(252, 55, 3.5, 0, Math.PI * 2, false);
+    context.fillStyle = "green";
+    context.fill();
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.arc(252, 56.5, 1.5, 0, Math.PI * 2, false);
+    context.fillStyle = "black";
+    context.fill();
+    context.closePath();
 
     //hind leg
     //////////
@@ -319,6 +347,13 @@ function PandaTrex() {
     context.stroke();
     context.closePath();
     //tail
+    // context.beginPath();
+    // context.moveTo(292, 120);
+    // context.lineTo(290, 131);
+    // context.lineTo(283, 122);
+    // context.fillStyle = "red";
+    // context.fill();
+    // context.closePath();
     context.beginPath();
     context.moveTo(290, 130);
     context.lineTo(274, 115);
