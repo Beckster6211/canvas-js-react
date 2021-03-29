@@ -675,6 +675,13 @@ function PandaTrex() {
   return (
     <div className="App">
       <canvas ref={canvas} style={{ width: "100%", height: "100%" }}></canvas>
+      <div className="text-center">
+        <p>
+          I've aways wondering why t-rex arms are so small in proportion to the
+          rest of its body
+        </p>
+        <p>(anyone else or just me... 🤷‍♀️)</p>
+      </div>
     </div>
   );
 }

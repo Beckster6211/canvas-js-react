@@ -275,6 +275,12 @@ function Mickey() {
   return (
     <div className="Mickey">
       <canvas ref={canvas} style={{ width: "100%", height: "100%" }}></canvas>
+      <div className="text-center">
+        <div className="font-weight-bold">
+          <br></br>
+          <p>No explanation needed. LEGEND</p>
+        </div>
+      </div>
     </div>
   );
 }
