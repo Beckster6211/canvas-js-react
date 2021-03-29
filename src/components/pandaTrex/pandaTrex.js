@@ -254,7 +254,7 @@ function PandaTrex() {
     context.stroke();
     context.closePath();
     context.beginPath();
-    context.ellipse(261.5, 58.5, 2.5, 1, Math.PI / 0.85, 0, Math.PI * 2);
+    context.ellipse(261.5, 58, 2.7, 1.4, Math.PI / 0.85, 0, Math.PI * 2);
     context.fillStyle = "blue";
     context.fill();
     context.closePath();
@@ -273,7 +273,7 @@ function PandaTrex() {
     context.stroke();
     context.closePath();
     context.beginPath();
-    context.ellipse(268, 63, 2.5, 1, Math.PI / 0.85, 0, Math.PI * 2);
+    context.ellipse(267.5, 62.5, 2.7, 1.4, Math.PI / 0.85, 0, Math.PI * 2);
     context.fillStyle = "blue";
     context.fill();
     context.closePath();
@@ -283,7 +283,19 @@ function PandaTrex() {
     context.fill();
     context.closePath();
     // eyebrows
-
+    context.beginPath();
+    context.bezierCurveTo(269, 50, 265, 52, 263, 49);
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    ////
+    context.beginPath();
+    context.bezierCurveTo(275, 59, 272, 56, 273, 53);
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
     //hind leg
     //////////
     //nails
