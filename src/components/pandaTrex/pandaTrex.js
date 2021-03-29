@@ -180,7 +180,7 @@ function PandaTrex() {
 
     ///////////////////t-rex
     // head
-    // higher
+    //upper jaw
     //teeth
     context.beginPath();
     context.moveTo(237, 60);
@@ -296,7 +296,6 @@ function PandaTrex() {
     context.strokeStyle = "black";
     context.stroke();
     context.closePath();
-
     ////
     //tears
     context.beginPath();
@@ -327,7 +326,7 @@ function PandaTrex() {
     context.closePath();
     //hind leg
     //////////
-    //nails
+    //claws
     context.beginPath();
     context.moveTo(226, 127);
     context.lineTo(222, 125);
@@ -407,7 +406,6 @@ function PandaTrex() {
     context.strokeStyle = "black";
     context.stroke();
     context.closePath();
-
     // body
     context.beginPath();
     context.ellipse(258, 105, 29, 18, Math.PI / 1.8, 0, Math.PI * 2);
@@ -427,13 +425,6 @@ function PandaTrex() {
     context.stroke();
     context.closePath();
     //tail
-    // context.beginPath();
-    // context.moveTo(292, 120);
-    // context.lineTo(290, 131);
-    // context.lineTo(283, 122);
-    // context.fillStyle = "red";
-    // context.fill();
-    // context.closePath();
     context.beginPath();
     context.moveTo(290, 130);
     context.lineTo(274, 115);
@@ -453,7 +444,6 @@ function PandaTrex() {
     context.strokeStyle = "black";
     context.stroke();
     context.closePath();
-
     //lower jaw
     //teeth
     context.beginPath();
@@ -497,7 +487,6 @@ function PandaTrex() {
     context.strokeStyle = "black";
     context.stroke();
     context.closePath();
-
     //legs
     //hind
     //claws
@@ -522,7 +511,6 @@ function PandaTrex() {
     context.fillStyle = "burlyWood";
     context.fill();
     context.closePath();
-
     ///////
     context.beginPath();
     context.arc(242, 140, 7, 0, Math.PI * 2, false);
