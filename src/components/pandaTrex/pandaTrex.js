@@ -296,6 +296,35 @@ function PandaTrex() {
     context.strokeStyle = "black";
     context.stroke();
     context.closePath();
+
+    ////
+    //tears
+    context.beginPath();
+    context.ellipse(259, 43, 3, 1.5, Math.PI / 0.7, 0, Math.PI * 2);
+    context.fillStyle = "blue";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(252, 33, 3, 1.5, Math.PI / 0.8, 0, Math.PI * 2);
+    context.fillStyle = "blue";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(240, 29, 3, 1.5, Math.PI / 1, 0, Math.PI * 2);
+    context.fillStyle = "blue";
+    context.fill();
+    context.closePath();
+    //////
+    context.beginPath();
+    context.ellipse(282, 58, 3, 1.5, Math.PI / 1.05, 0, Math.PI * 2);
+    context.fillStyle = "blue";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(292, 55, 3, 1.5, Math.PI / 1, 0, Math.PI * 2);
+    context.fillStyle = "blue";
+    context.fill();
+    context.closePath();
     //hind leg
     //////////
     //nails
