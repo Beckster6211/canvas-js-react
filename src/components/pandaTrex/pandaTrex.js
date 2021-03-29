@@ -270,6 +270,28 @@ function PandaTrex() {
     ////
     //arm
     context.beginPath();
+    context.moveTo(235, 95);
+    context.lineTo(231, 97);
+    context.lineTo(235, 98);
+    context.fillStyle = "burlyWood";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.moveTo(234.5, 97);
+    context.lineTo(232, 101);
+    context.lineTo(235, 100);
+    context.fillStyle = "burleyWood";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.moveTo(236, 99);
+    context.lineTo(237, 103);
+    context.lineTo(238, 98);
+    context.fillStyle = "burleyWood";
+    context.fill();
+    context.closePath();
+    /////
+    context.beginPath();
     context.ellipse(241, 95, 7, 2, Math.PI / 1.2, 0, Math.PI * 2);
     context.fillStyle = "green";
     context.fill();
@@ -421,6 +443,27 @@ function PandaTrex() {
     context.stroke();
     context.closePath();
     // arm
+    context.beginPath();
+    context.moveTo(247, 101);
+    context.lineTo(243, 102);
+    context.lineTo(246, 104);
+    context.fillStyle = "burlyWood";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.moveTo(246, 104);
+    context.lineTo(244, 107);
+    context.lineTo(248, 107);
+    context.fillStyle = "burlyWood";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.moveTo(250, 106);
+    context.lineTo(248, 106);
+    context.lineTo(250, 110);
+    context.fillStyle = "burlyWood";
+    context.fill();
+    context.closePath();
     context.beginPath();
     context.arc(259, 97.5, 2.5, 0, Math.PI * 2, false);
     context.fillStyle = "green";
