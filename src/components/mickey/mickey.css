@@ -1,6 +1,6 @@
 .Mickey {
   min-height: 100vh;
-  min-width: 100vw;
+  /* min-width: 90vw; */
   background-image: url("./images/waltdisneylogo.jpg"),
     url("./images//waltAndMickeyOnLap.jpg"),
     url("https://dyn1.heritagestatic.com/lf?set=path%5B1%2F9%2F3%2F7%2F0%2F19370022%5D&call=url%5Bfile%3Aproduct.chain%5D");
@@ -108,7 +108,7 @@
 }
 
 /*
-
+pictures
 Mickey timeline
 https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e0e44692-4aa1-4273-a997-f27141d83803/dap33j9-02da4311-3e54-410e-894d-546f09d20614.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZTBlNDQ2OTItNGFhMS00MjczLWE5OTctZjI3MTQxZDgzODAzXC9kYXAzM2o5LTAyZGE0MzExLTNlNTQtNDEwZS04OTRkLTU0NmYwOWQyMDYxNC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.ywHjcU2dAqPpLUL0p7jP2vhzr3rPryzkN4kr5rReLR0 
 
