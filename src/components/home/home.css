@@ -22,3 +22,39 @@
   margin: 2%;
   font-size: 1.4rem;
 }
+
+@media only screen and (min-width: 550px) and (max-width: 823px) and (orientation: landscape) {
+  .textContainer {
+    color: black;
+    position: relative;
+    padding: 1%;
+    text-align: center;
+    font-weight: 500;
+    margin: 2%;
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 650px) and (orientation: portrait) {
+  .textContainer {
+    color: black;
+    position: relative;
+    padding: 1%;
+    text-align: center;
+    font-weight: 500;
+    margin: 2%;
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 850px) and (orientation: landscape) {
+  .textContainer {
+    color: black;
+    position: relative;
+    padding: 1%;
+    text-align: center;
+    font-weight: 500;
+    margin: 2%;
+    font-size: 1.4rem;
+  }
+}

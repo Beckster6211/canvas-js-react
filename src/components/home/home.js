@@ -7,8 +7,8 @@ function Home() {
       <div className="home">
         <img className="bg" alt="artist pallete" />
         <div className="textContainer">
-          <h2 className="heading">🏠 Home 🏠</h2>
-          <h3>Hi 👋</h3>
+          <h3 className="heading">🏠 Home 🏠</h3>
+          <h4>Hi 👋</h4>
           <p className="text">
             During my time at School of Code we were shown Canvas. I enjoyed
             making pictures as it proved to be a good stress reliever, sometimes
