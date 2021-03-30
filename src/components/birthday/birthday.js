@@ -628,7 +628,16 @@ function Birthday() {
   }
   return (
     <div className="App">
-      <canvas ref={canvas} style={{ width: "100%", height: "100%" }}></canvas>
+      <div className="text-center">
+        <div className="font-weight-bold">
+          <h6>Hope You Have A Great Day</h6>
+          <canvas
+            ref={canvas}
+            style={{ width: "100%", height: "100%" }}
+          ></canvas>
+          <p>Best Wishes</p>
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,20 +1,120 @@
 .Mickey {
-  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e0e44692-4aa1-4273-a997-f27141d83803/dap33j9-02da4311-3e54-410e-894d-546f09d20614.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZTBlNDQ2OTItNGFhMS00MjczLWE5OTctZjI3MTQxZDgzODAzXC9kYXAzM2o5LTAyZGE0MzExLTNlNTQtNDEwZS04OTRkLTU0NmYwOWQyMDYxNC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.ywHjcU2dAqPpLUL0p7jP2vhzr3rPryzkN4kr5rReLR0");
+  min-height: 100vh;
+  /* min-width: 90vw; */
+  background-image: url("./images/waltdisneylogo.jpg"),
+    url("./images//waltAndMickeyOnLap.jpg"),
+    url("https://dyn1.heritagestatic.com/lf?set=path%5B1%2F9%2F3%2F7%2F0%2F19370022%5D&call=url%5Bfile%3Aproduct.chain%5D");
   background-repeat: no-repeat;
-  background-size: 100% 95%;
-  background-position: center;
+  background-size: 50% 50%;
+  background-position: top left, bottom left, bottom right, bottom right;
+  position: relative;
 }
+
+/*all responsive with screen laptop way*/
+
+@media only screen and (max-width: 550px) and (orientation: portrait) {
+  .quote {
+    margin: 2%;
+    color: black;
+    position: absolute;
+    font-weight: 500;
+    top: 28%;
+    left: 55%;
+    right: 5%;
+    text-align: center;
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (min-width: 550px) and (orientation: portrait) {
+  .quote {
+    margin: 2%;
+    color: black;
+    position: absolute;
+    font-weight: 500;
+    top: 25%;
+    left: 67%;
+    right: 0%;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 823px) and (orientation: landscape) {
+  .quote {
+    margin: 2%;
+    color: black;
+    position: absolute;
+    font-weight: 500;
+    top: 3%;
+    left: 80%;
+    right: 1%;
+    text-align: center;
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (min-width: 730px) and (orientation: portrait) {
+  .quote {
+    margin: 2%;
+    color: black;
+    position: absolute;
+    font-weight: 500;
+    top: 24%;
+    left: 67%;
+    right: 0%;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 830px) and (orientation: landscape) {
+  .quote {
+    margin: 2%;
+    color: black;
+    position: absolute;
+    font-weight: 500;
+    top: 7%;
+    left: 80%;
+    right: 2%;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 900px) and (orientation: landscape) {
+  .quote {
+    margin: 2%;
+    color: black;
+    position: absolute;
+    font-weight: 500;
+    top: 25%;
+    left: 70%;
+    right: 0%;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 1024px) and (orientation: landscape) {
+  .quote {
+    margin: 2%;
+    color: black;
+    position: absolute;
+    font-weight: 500;
+    top: 5%;
+    left: 79%;
+    right: 2%;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+}
+
 /*
+pictures
 Mickey timeline
 https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e0e44692-4aa1-4273-a997-f27141d83803/dap33j9-02da4311-3e54-410e-894d-546f09d20614.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZTBlNDQ2OTItNGFhMS00MjczLWE5OTctZjI3MTQxZDgzODAzXC9kYXAzM2o5LTAyZGE0MzExLTNlNTQtNDEwZS04OTRkLTU0NmYwOWQyMDYxNC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.ywHjcU2dAqPpLUL0p7jP2vhzr3rPryzkN4kr5rReLR0 
-
-//Disney logo
-https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_740,w_1100/v1555449052/shape/mentalfloss/waltdisneylogo.jpg?itok=9bzewNvg
 
 // Disneyland castle
 https://cdn.wallpapersafari.com/65/35/p89aBW.jpg
 
-// Walt Disney and Mickey 
-https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Walt_Disney_and_his_cartoon_creation_%22Mickey_Mouse%22_-_National_Board_of_Review_Magazine.jpg/170px-Walt_Disney_and_his_cartoon_creation_%22Mickey_Mouse%22_-_National_Board_of_Review_Magazine.jpg
-
+// Walt Disney and Mickey sign
+https://dyn1.heritagestatic.com/lf?set=path%5B1%2F9%2F3%2F7%2F0%2F19370022%5D&call=url%5Bfile%3Aproduct.chain%5D
 */
