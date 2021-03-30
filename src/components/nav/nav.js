@@ -28,22 +28,30 @@ function Nav() {
             delay={{ show: 250, hide: 400 }}
             overlay={renderTooltip}
           >
-            <ReactBootStrap.Navbar.Brand href="../home/home.js">
-              My Stress Relief
-            </ReactBootStrap.Navbar.Brand>
+            <Link to="/">
+              <ReactBootStrap.Navbar.Brand>
+                My Stress Relief
+              </ReactBootStrap.Navbar.Brand>
+            </Link>
           </OverlayTrigger>
           <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
             <ReactBootStrap.Nav className="mr-auto">
-              <ReactBootStrap.Nav.Link href="../birthday/birthday.js">
-                No more stamps...
-              </ReactBootStrap.Nav.Link>
-              <ReactBootStrap.Nav.Link href="../mickey/mickey.js">
-                Everyones Favourite Mouse
-              </ReactBootStrap.Nav.Link>
-              <ReactBootStrap.Nav.Link href="../pandaTrex/pandaTrex.js">
-                Why?
-              </ReactBootStrap.Nav.Link>
+              <Link to="/birthday">
+                <ReactBootStrap.Nav.Link href="/birthday">
+                  No more stamps...
+                </ReactBootStrap.Nav.Link>
+              </Link>
+              <Link to="/mickey">
+                <ReactBootStrap.Nav.Link href="/mickey">
+                  Everyones Favourite Mouse
+                </ReactBootStrap.Nav.Link>
+              </Link>
+              <Link to="/why">
+                <ReactBootStrap.Nav.Link href="/why">
+                  Why?
+                </ReactBootStrap.Nav.Link>
+              </Link>
               {/* <ReactBootStrap.Nav.Link eventKey={2} href="#memes">
                 Dank memes
               </ReactBootStrap.Nav.Link> */}
@@ -57,10 +65,10 @@ function Nav() {
           <Route path="/mickey">
             <Mickey />
           </Route>
-          <Route path="/pandaTrex">
+          <Route path="/why">
             <PandaTrex />
           </Route>
-          <Route path="/home">
+          <Route path="/">
             <Home />
           </Route>
         </Switch>
