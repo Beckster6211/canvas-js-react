@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import "../../App.css";
 import "./mickey.css";
 
 function Mickey() {
@@ -198,88 +199,89 @@ function Mickey() {
     context.strokeStyle = "black";
     context.stroke();
     context.closePath();
-    //b
-    context.beginPath();
-    context.moveTo(25, 70);
-    context.lineTo(35, 110);
-    context.lineWidth = 2;
-    context.strokeStyle = "black";
-    context.stroke();
-    context.closePath();
-    context.beginPath();
-    context.moveTo(25, 70);
-    context.lineTo(38, 75);
-    context.lineWidth = 2;
-    context.strokeStyle = "black";
-    context.stroke();
-    context.closePath();
-    context.beginPath();
-    context.moveTo(38, 75);
-    context.lineTo(30, 90);
-    context.lineWidth = 2;
-    context.strokeStyle = "black";
-    context.stroke();
-    context.closePath();
-    context.beginPath();
-    context.moveTo(30, 90);
-    context.lineTo(43, 96);
-    context.lineWidth = 2;
-    context.strokeStyle = "black";
-    context.stroke();
-    context.closePath();
-    context.beginPath();
-    context.moveTo(43, 96);
-    context.lineTo(35, 110);
-    context.lineWidth = 2;
-    context.strokeStyle = "black";
-    context.stroke();
-    context.closePath();
-    // l
-    context.beginPath();
-    context.moveTo(38, 68);
-    context.lineTo(46, 105);
-    context.lineWidth = 2;
-    context.strokeStyle = "black";
-    context.stroke();
-    context.closePath();
-    context.beginPath();
-    context.moveTo(46, 105);
-    context.lineTo(54, 95);
-    context.lineWidth = 2;
-    context.strokeStyle = "black";
-    context.stroke();
-    context.closePath();
-    // j
-    context.beginPath();
-    context.moveTo(25, 70);
-    context.lineTo(78, 64);
-    context.lineWidth = 2;
-    context.strokeStyle = "black";
-    context.stroke();
-    context.closePath();
-    context.beginPath();
-    context.moveTo(54, 95);
-    context.lineTo(64, 102);
-    context.lineWidth = 2;
-    context.strokeStyle = "black";
-    context.stroke();
-    context.closePath();
-    context.beginPath();
-    context.moveTo(64, 102);
-    context.lineTo(65, 65);
-    context.lineWidth = 2;
-    context.strokeStyle = "black";
-    context.stroke();
-    context.closePath();
+    // //b
+    // context.beginPath();
+    // context.moveTo(25, 70);
+    // context.lineTo(35, 110);
+    // context.lineWidth = 2;
+    // context.strokeStyle = "black";
+    // context.stroke();
+    // context.closePath();
+    // context.beginPath();
+    // context.moveTo(25, 70);
+    // context.lineTo(38, 75);
+    // context.lineWidth = 2;
+    // context.strokeStyle = "black";
+    // context.stroke();
+    // context.closePath();
+    // context.beginPath();
+    // context.moveTo(38, 75);
+    // context.lineTo(30, 90);
+    // context.lineWidth = 2;
+    // context.strokeStyle = "black";
+    // context.stroke();
+    // context.closePath();
+    // context.beginPath();
+    // context.moveTo(30, 90);
+    // context.lineTo(43, 96);
+    // context.lineWidth = 2;
+    // context.strokeStyle = "black";
+    // context.stroke();
+    // context.closePath();
+    // context.beginPath();
+    // context.moveTo(43, 96);
+    // context.lineTo(35, 110);
+    // context.lineWidth = 2;
+    // context.strokeStyle = "black";
+    // context.stroke();
+    // context.closePath();
+    // // l
+    // context.beginPath();
+    // context.moveTo(38, 68);
+    // context.lineTo(46, 105);
+    // context.lineWidth = 2;
+    // context.strokeStyle = "black";
+    // context.stroke();
+    // context.closePath();
+    // context.beginPath();
+    // context.moveTo(46, 105);
+    // context.lineTo(54, 95);
+    // context.lineWidth = 2;
+    // context.strokeStyle = "black";
+    // context.stroke();
+    // context.closePath();
+    // // j
+    // context.beginPath();
+    // context.moveTo(25, 70);
+    // context.lineTo(78, 64);
+    // context.lineWidth = 2;
+    // context.strokeStyle = "black";
+    // context.stroke();
+    // context.closePath();
+    // context.beginPath();
+    // context.moveTo(54, 95);
+    // context.lineTo(64, 102);
+    // context.lineWidth = 2;
+    // context.strokeStyle = "black";
+    // context.stroke();
+    // context.closePath();
+    // context.beginPath();
+    // context.moveTo(64, 102);
+    // context.lineTo(65, 65);
+    // context.lineWidth = 2;
+    // context.strokeStyle = "black";
+    // context.stroke();
+    // context.closePath();
   }
   return (
-    <div className="Mickey">
-      <canvas ref={canvas} style={{ width: "100%", height: "100%" }}></canvas>
-      <div className="text-center">
-        <div className="font-weight-bold">
-          <br></br>
-          <p>No explanation needed. LEGEND</p>
-        </div>
+    <div className="App">
+      <div className="Mickey">
+        <h6 className="quote">
+          “I only hope that we don't lose sight of one thing — that it was all
+          started by a mouse.”-Walt Disney.
+        </h6>
+        {/* <p>No explanation needed. LEGEND</p> */}
+        <canvas ref={canvas} style={{ width: "100%", height: "100%" }}></canvas>
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ function Home() {
   return (
     <div className="p-3 mb-2 bg-success">
       <div className="text-center">
-        <h2 className="home">🏠 Home 🏠</h2>
+        <h2 className="home">🏠 Home</h2>
         <h3>Hi 👋</h3>
         <p>
           During my time at School of Code we were shown Canvas. I enjoyed
@@ -17,7 +17,10 @@ function Home() {
         <p>
           If you want to see them visit the different pictures in the nav 😃
         </p>
-        <p>👍 Hope you like them I had fun making them...</p>
+        <p>👍 Hope you like them I had fun making them</p>
+        <p>
+          (I still have a small issue with the scaling so some are a bit fussy)
+        </p>
       </div>
     </div>
   );
