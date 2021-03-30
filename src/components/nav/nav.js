@@ -23,17 +23,17 @@ function Nav() {
           bg="warning"
           variant="light"
         >
-          <OverlayTrigger
-            placement="right"
-            delay={{ show: 250, hide: 400 }}
-            overlay={renderTooltip}
-          >
-            <Link to="/">
+          <Link to="/">
+            <OverlayTrigger
+              placement="right"
+              delay={{ show: 250, hide: 400 }}
+              overlay={renderTooltip}
+            >
               <ReactBootStrap.Navbar.Brand>
                 My Stress Relief
               </ReactBootStrap.Navbar.Brand>
-            </Link>
-          </OverlayTrigger>
+            </OverlayTrigger>
+          </Link>
           <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
             <ReactBootStrap.Nav className="mr-auto">
