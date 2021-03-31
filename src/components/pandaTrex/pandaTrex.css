@@ -12,6 +12,10 @@
   padding-right: 2%;
 }
 
+.images {
+  display: inline;
+}
+
 .trex {
   /* content: url("./images//emmaAndSue.jpg"); */
   width: 40%;
@@ -22,4 +26,44 @@
   /* content: url("./images//pandaWave.jpg"); */
   width: 45%;
   height: auto;
+}
+
+@media only screen and (min-width: 550px) and (max-width: 823px) and (orientation: landscape) {
+  .text {
+    padding-top: 0.4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: blue;
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 650px) and (orientation: portrait) {
+  .text {
+    padding-top: 0.4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: red;
+    font-size: 0.7rem;
+  }
+
+  .images {
+    display: block;
+  }
+
+  .trex {
+    /* content: url("./images//emmaAndSue.jpg"); */
+    width: 60%;
+    height: auto;
+    padding: 1%;
+    /* align-items: center; */
+  }
+
+  .panda {
+    /* content: url("./images//pandaWave.jpg"); */
+    width: 62%;
+    height: auto;
+    padding: 1%;
+    /* align-items: center; */
+  }
 }

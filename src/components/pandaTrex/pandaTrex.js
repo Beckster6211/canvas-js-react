@@ -684,21 +684,23 @@ function PandaTrex() {
         <p className="text">
           Emma with Sue 🦖 (t-rex skeleton at chicago museum)
         </p>
-        <img
-          className="trex"
-          src="./images/emmaAndSue.jpg"
-          alt="Emma and Sue the trex skeleton at chicago museum"
-          // width="100px"
-          // height="100px"
-        />
-        &nbsp;&nbsp;&nbsp;
-        <img
-          className="panda"
-          src="./images/pandaWave.jpg"
-          alt="panda high five"
-          // width="100px"
-          // height="100px"
-        />
+        <div className="images">
+          <img
+            className="trex"
+            src="./images/emmaAndSue.jpg"
+            alt="Emma and Sue the trex skeleton at chicago museum"
+            // width="100px"
+            // height="100px"
+          />
+          &nbsp;&nbsp;&nbsp;
+          <img
+            className="panda"
+            src="./images/pandaWave.jpg"
+            alt="panda high five"
+            // width="100px"
+            // height="100px"
+          />
+        </div>
         <p className="text">and a cute panda high five (for Amelia 🐼)</p>
       </div>
     </div>
