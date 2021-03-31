@@ -12,8 +12,8 @@ function Home() {
           <p className="text">
             During my time at School of Code we were shown Canvas. I enjoyed
             making pictures as it proved to be a good stress reliever, sometimes
-            SoC can get a bit overwhelming (no offense meant, its still a fun
-            course).
+            SoC can get a bit overwhelming (no offense meant, its still an
+            amazing course).
           </p>
           <p className="text">
             After lots of playing I found a blog which showed how to make them

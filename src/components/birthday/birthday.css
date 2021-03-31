@@ -1,0 +1,30 @@
+.birthday {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding-top: 1%;
+}
+
+@media only screen and (min-width: 550px) and (max-width: 823px) and (orientation: landscape) {
+  .birthday {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 812px) and (orientation: landscape) {
+  .birthday {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.9rem;
+  }
+}
+
+@media only screen and (max-width: 650px) and (orientation: portrait) {
+  .birthday {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+}
