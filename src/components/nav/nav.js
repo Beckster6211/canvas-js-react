@@ -39,7 +39,7 @@ function Nav() {
             <ReactBootStrap.Nav className="mr-auto">
               <Link to="/birthday">
                 <ReactBootStrap.Nav.Link href="/birthday">
-                  No more stamps...
+                  No more stamps
                 </ReactBootStrap.Nav.Link>
               </Link>
               <Link to="/mickey">

@@ -677,12 +677,12 @@ function PandaTrex() {
     <div className="App">
       <div className="pandaTrex">
         <p className="text">
-          I've aways wondering why t-rex arms are so small in proportion to the
+          I've aways wondered why t-rex arms are so small in proportion to the
           rest of its body? (anyone else or just me... 🤷‍♀️)
         </p>
         <canvas ref={canvas} style={{ width: "100%", height: "100%" }}></canvas>
         <p className="text">
-          Emma with Sue 🦖 (t-rex skeleton at chicago museum)
+          "Sue" 🦖 T-rex skeleton (Emma is the little one at the front)
         </p>
         <div className="images">
           <img
@@ -701,7 +701,7 @@ function PandaTrex() {
             // height="100px"
           />
         </div>
-        <p className="text">and a cute panda high five (for Amelia 🐼)</p>
+        <p className="text">(and a cute panda wave for Amelia 🐼)</p>
       </div>
     </div>
   );
