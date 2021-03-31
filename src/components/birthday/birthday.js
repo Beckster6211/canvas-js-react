@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import "./birthday.css";
 
 function Birthday() {
   const canvas = useRef(null);
@@ -628,15 +629,10 @@ function Birthday() {
   }
   return (
     <div className="App">
-      <div className="text-center">
-        <div className="font-weight-bold">
-          <h6>Hope You Have A Great Day</h6>
-          <canvas
-            ref={canvas}
-            style={{ width: "100%", height: "100%" }}
-          ></canvas>
-          <p>Best Wishes</p>
-        </div>
+      <div className="birthday">
+        <p className="text">Hope You Have A Great Day</p>
+        <canvas ref={canvas} style={{ width: "100%", height: "100%" }}></canvas>
+        <p>Best Wishes</p>
       </div>
     </div>
   );
