@@ -1,0 +1,25 @@
+.pandaTrex {
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 1%;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.text {
+  padding-top: 0.4%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.trex {
+  /* content: url("./images//emmaAndSue.jpg"); */
+  width: 40%;
+  height: auto;
+}
+
+.panda {
+  /* content: url("./images//pandaWave.jpg"); */
+  width: 45%;
+  height: auto;
+}

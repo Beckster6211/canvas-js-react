@@ -1,4 +1,5 @@
 .birthday {
+  min-height: 100vh;
   text-align: center;
   font-weight: 500;
   font-size: 1.5rem;
