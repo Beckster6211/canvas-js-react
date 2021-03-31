@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import "./pandaTrex.css";
 
 function PandaTrex() {
   const canvas = useRef(null);
@@ -674,13 +675,33 @@ function PandaTrex() {
   }
   return (
     <div className="App">
-      <canvas ref={canvas} style={{ width: "100%", height: "100%" }}></canvas>
-      <div className="text-center">
-        <p>
-          I've aways wondering why t-rex arms are so small in proportion to the
-          rest of its body
+      <div className="pandaTrex">
+        <p className="text">
+          I've aways wondered why t-rex arms are so small in proportion to the
+          rest of its body? (anyone else or just me... 🤷‍♀️)
         </p>
-        <p>(anyone else or just me... 🤷‍♀️)</p>
+        <canvas ref={canvas} style={{ width: "100%", height: "100%" }}></canvas>
+        <p className="text">
+          "Sue" 🦖 T-rex skeleton (Emma is the little one at the front)
+        </p>
+        <div className="images">
+          <img
+            className="trex"
+            src="./images/emmaAndSue.jpg"
+            alt="Emma and Sue the trex skeleton at chicago museum"
+            // width="100px"
+            // height="100px"
+          />
+          &nbsp;&nbsp;&nbsp;
+          <img
+            className="panda"
+            src="./images/pandaWave.jpg"
+            alt="panda high five"
+            // width="100px"
+            // height="100px"
+          />
+        </div>
+        <p className="text">(and a cute panda wave for Amelia 🐼)</p>
       </div>
     </div>
   );
