@@ -90,6 +90,7 @@ I started just making pictures using canvas and JavaScript together then transfe
 ### What I used
 
 For general app construction
+<br></br>
 <img src = "./public/images/1280px-React-icon.svg (1).png" width = "100px" height = "100px"/>
 
 <ul>
@@ -101,7 +102,8 @@ For general app construction
  </ul>
 
 For app navigation and additonal css
-<img src = "./public/images/download.png" width = "100px" height = "100px"/>
+<br></br>
+<img src = "./public/images/download.png" width = "70px" height = "70px"/>
 
 <ul>
     <li>Bootstrap </li>
