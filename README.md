@@ -73,21 +73,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ###### Becky Louise Jones
 
-# canvas-js-react
+# 🎨 canvas-js-react 🖌️
 
-## canvas pictures that are responsive
+## 🖼️ canvas pictures that are responsive 📱💻🖥️
 
-## My Stress Relief
+## 😩 My Stress Relief 😌
 
 During my time at the School of Code I was introduced to canvas. Something that I enjoy is animation and cartooning. I enjoy the intricacies of it the time, effort and energy that goes into creating just one second of motion (then adding the sounds, music and colour etc etc...)
 
-## How I started
+## How I started 🏁
 
 I started just making pictures using canvas and JavaScript together then transfered these to a react app. Whilst experimenting with this I found a blog and work that help me understanding how to make it render to different screen sizes. (There still some issues with scalability 🤏 so some pictures are a little fuzzy)
 
 ###### https://www.pluralsight.com/guides/render-window-resize-react
 
-## What I used
+## What I used 🛠️
 
 For general app construction
 <br></br>
@@ -109,11 +109,11 @@ For app navigation and additonal css
     <li>Bootstrap </li>
 </ul>
 
-## Inspiration
+## Inspiration 💡
 
-###### (The why behind each picture)
+###### (The reason behind each picture)
 
-### No more stamps
+### No more stamps 🖃
 
 This picture was inspired by the rising cost in stamps the repeated depletation of my bank balance and the annoyingly close space between all my family members birthdays 🎉
 
@@ -134,3 +134,14 @@ Somebody I met on the bootcamp (Emma) in a previous life (pre coding course) was
 So I turned my crazy thought into a funny little image (and not to forget Amelia who was a witness to the conversation I put in her favourite animal.)
 
 ###### (There is also a tribute to them below my drawing) 🦖 🐼
+
+## What to see? :eyes:
+
+If you want to see you can open a localHost version by typing "npm run start" in the terminal
+<br>
+
+### Or a deployed version :computer:
+
+https://blj-canvas.netlify.app/
+
+There is space for more pictures (and believe me there will be)
