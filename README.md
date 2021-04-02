@@ -89,11 +89,18 @@ I started just making pictures using canvas and JavaScript together then transfe
 
 ### What I used
 
+For general app construction
+
 <ul>
-<li>React <img src = "./public/images/1280px-React-icon.svg (1).png" width = "100px" height = "auto"/>For general app construction</li>
-    <ul>
+    <li>React <img src = "./public/images/1280px-React-icon.svg (1).png" width = "100px" height = "auto"/></li>
+        <ul>
         <li>React Dom</li>
         <li>React Router Dom</li>
     </ul>
-<li>Bootstrap <img src = "./public/images/download.png" width = "100px" height = "auto"/>For app navigation and additonal css</li>
+ </ul>
+
+For app navigation and additonal css
+
+<ul>
+    <li>Bootstrap <img src = "./public/images/download.png" width = "100px" height = "auto"/></li>
 </ul>
