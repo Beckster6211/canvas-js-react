@@ -69,6 +69,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
 
+# BLJ <img src = "./public/blj5.PNG" width = "150px" height = "auto"/>
+
+###### Becky Louise Jones
+
 # canvas-js-react
 
 ## canvas picture that are responsive
