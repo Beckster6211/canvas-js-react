@@ -677,7 +677,7 @@ function PandaTrex() {
     <div className="App">
       <div className="pandaTrex">
         <p className="text">
-          I've aways wondered why t-rex arms are so small in proportion to the
+          I've always wondered why t-rex arms are so small in proportion to the
           rest of its body? (anyone else or just me... 🤷‍♀️)
         </p>
         <canvas ref={canvas} style={{ width: "100%", height: "100%" }}></canvas>
