@@ -69,6 +69,79 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
 
-# canvas-js-react
+# BLJ <img src = "./public/blj5.PNG" width = "100px" height = "auto"/>
 
-## canvas picture that are responsive
+###### Becky Louise Jones 🙋‍♀️ (me)
+
+# 🎨 canvas-js-react 🖌️
+
+## 🖼️ canvas pictures that are responsive 📱💻🖥️
+
+## 😩 My Stress Relief 😌
+
+During my time at the School of Code I was introduced to canvas. Something that I enjoy is animation and cartooning. I enjoy the intricacies of it the time, effort and energy that goes into creating just one second of motion (then adding the sounds, music and colour etc etc...)
+
+## How I started 🏁
+
+I started just making pictures using canvas and JavaScript together then transfered these to a react app. Whilst experimenting with this I found a blog and work that help me understanding how to make it render to different screen sizes. (There still some issues with scalability 🤏 so some pictures are a little fuzzy)
+
+###### https://www.pluralsight.com/guides/render-window-resize-react
+
+## What I used 🛠️
+
+For general app construction
+<br></br>
+<img src = "./public/images/1280px-React-icon.svg (1).png" width = "150px" height = "100px"/>
+
+<ul>
+    <li>React </li>
+        <ul>
+        <li>React Dom</li>
+        <li>React Router Dom</li>
+    </ul>
+ </ul>
+
+For app navigation and additonal css
+<br></br>
+<img src = "./public/images/download.png" width = "70px" height = "70px"/>
+
+<ul>
+    <li>Bootstrap </li>
+</ul>
+
+## Inspiration 💡
+
+###### (The reason behind each picture)
+
+### No more stamps 🖃
+
+This picture was inspired by the rising cost in stamps the repeated depletation of my bank balance and the annoyingly close space between all my family members birthdays 🎉
+
+###### I have this one deployed individually and am going to do more so can send a link to my family on their birthday like a computerised birthday card 👍
+
+### Everybodys Favourite Mouse 🐀
+
+This picture was inspired by 'everyone favourite mouse'. As an animation fan there is NO ONE greater than Walter Elias Disney, what he has done for the world not just the world of animation or even tv and film but for the world in general is unlike anyone before or anyone since (and unlike anyone who ever will).
+
+###### There is also an iconic Walt Disney quote and background pictures.
+
+### Why? 🤔
+
+This picture was inspired by my brain which sometimes has weird thoughts. The particular weird though is ' Why are T-rex arms so small?'
+<br></br>
+Somebody I met on the bootcamp (Emma) in a previous life (pre coding course) was a palaeontologist and I gave her this question and she had a good go at answering it (although she did give me the collection of theories behind it.... so slightly closer to the answer???)
+<br></br>
+So I turned my crazy thought into a funny little image (and not to forget Amelia who was a witness to the conversation I put in her favourite animal.)
+
+###### (There is also a tribute to them below my drawing) 🦖 🐼
+
+## What to see? :eyes:
+
+If you want to see you can open a localHost version by typing "npm run start" in the terminal
+<br>
+
+### Or a deployed version :computer:
+
+https://blj-canvas.netlify.app/
+
+There is space for more pictures (and believe me there will be)
