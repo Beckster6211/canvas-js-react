@@ -91,7 +91,7 @@ I started just making pictures using canvas and JavaScript together then transfe
 
 For general app construction
 <br></br>
-<img src = "./public/images/1280px-React-icon.svg (1).png" width = "120px" height = "100px"/>
+<img src = "./public/images/1280px-React-icon.svg (1).png" width = "150px" height = "100px"/>
 
 <ul>
     <li>React </li>
