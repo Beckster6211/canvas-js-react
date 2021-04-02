@@ -77,17 +77,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## canvas pictures that are responsive
 
-### My Stress Relief
+## My Stress Relief
 
 During my time at the School of Code I was introduced to canvas. Something that I enjoy is animation and cartooning. I enjoy the intricacies of it the time, effort and energy that goes into creating just one second of motion (then adding the sounds, music and colour etc etc...)
 
-### How I started
+## How I started
 
 I started just making pictures using canvas and JavaScript together then transfered these to a react app. Whilst experimenting with this I found a blog and work that help me understanding how to make it render to different screen sizes. (There still some issues with scalability 🤏 so some pictures are a little fuzzy)
 
 ###### https://www.pluralsight.com/guides/render-window-resize-react
 
-### What I used
+## What I used
 
 For general app construction
 <br></>
@@ -109,11 +109,11 @@ For app navigation and additonal css
     <li>Bootstrap </li>
 </ul>
 
-### Inspiration
+## Inspiration
 
 ###### (The why behind each picture)
 
-##### No more stamps
+### No more stamps
 
 This picture was inspired by the rising cost in stamps the repeated depletation of my bank balance and the annoyingly close space between all my family members birthdays 🎉
 
