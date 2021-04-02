@@ -75,7 +75,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # canvas-js-react
 
-## canvas picture that are responsive
+## canvas pictures that are responsive
 
 ### My Stress Relief
 
@@ -83,6 +83,16 @@ During my time at the School of Code I was introduced to canvas. Something that 
 
 ### How I started
 
-I started just making pictures just using canvas and JS together then transfered these to a react app. Whilst experimenting with this I found a blog and work that help me understanding how to make it render to differnt screen sizes.
+I started just making pictures using canvas and JavaScript together then transfered these to a react app. Whilst experimenting with this I found a blog and work that help me understanding how to make it render to differnt screen sizes.
 
 ###### https://www.pluralsight.com/guides/render-window-resize-react
+
+### What I used
+
+<ul>
+<li>React <img src = "./public/images/1280px-React-icon.svg (1).png" width = "150px" height = "auto"/></li>
+    <ul>
+        <li>React Dom</li>
+        <li>React Router Dom</li>
+    </ul>
+</ul>
