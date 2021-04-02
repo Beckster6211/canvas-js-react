@@ -69,10 +69,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
 
-# BLJ <img src = "./public/blj5.PNG" width = "150px" height = "auto"/>
+# BLJ <img src = "./public/blj5.PNG" width = "100px" height = "auto"/>
 
 ###### Becky Louise Jones
 
 # canvas-js-react
 
 ## canvas picture that are responsive
+
+### My Stress Relief
+
+During my time at the School of Code I was introduced to canvas. Something that I enjoy is animation and cartooning. I enjoy the intricacies of it the time, effort and energy that goes into creating just one second of motion (then adding the sounds, music and colour etc etc...)
