@@ -71,7 +71,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # BLJ <img src = "./public/blj5.PNG" width = "100px" height = "auto"/>
 
-###### Becky Louise Jones
+###### Becky Louise Jones 🙋‍♀️ (me)
 
 # 🎨 canvas-js-react 🖌️
 
