@@ -80,3 +80,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### My Stress Relief
 
 During my time at the School of Code I was introduced to canvas. Something that I enjoy is animation and cartooning. I enjoy the intricacies of it the time, effort and energy that goes into creating just one second of motion (then adding the sounds, music and colour etc etc...)
+
+### How I started
+
+I started just making pictures just using canvas and JS together then transfered these to a react app. Whilst experimenting with this I found a blog and work that help me understanding how to make it render to differnt screen sizes.
+
+###### https://www.pluralsight.com/guides/render-window-resize-react
