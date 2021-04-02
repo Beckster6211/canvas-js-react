@@ -87,6 +87,8 @@ I started just making pictures using canvas and JavaScript together then transfe
 
 ###### https://www.pluralsight.com/guides/render-window-resize-react
 
+<!-- Chris Dobby -->
+
 ## What I used 🛠️
 
 For general app construction
