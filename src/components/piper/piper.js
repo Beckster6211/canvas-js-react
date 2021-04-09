@@ -101,7 +101,7 @@ function Piper() {
     context.stroke();
     context.closePath();
     context.beginPath();
-    context.arc(182, 65, 5, 0, Math.PI * 2, false);
+    context.arc(181.5, 65, 5.5, 0, Math.PI * 2, false);
     context.fillStyle = "mediumPurple";
     context.fill();
     context.closePath();
@@ -170,6 +170,19 @@ function Piper() {
     context.lineWidth = "0.6";
     context.strokeStyle = "black";
     context.stroke();
+    context.closePath();
+
+    //antenna
+    context.beginPath();
+    context.bezierCurveTo(172, 39, 150, 30, 160, 20);
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(160, 20, 7, 2.5, Math.PI / 1.8, 0, Math.PI * 2);
+    context.fillStyle = "black";
+    context.fill();
     context.closePath();
 
     ////// templates
