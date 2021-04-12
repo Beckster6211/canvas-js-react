@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-// import "../../App.css";
-// import "./mickey.css";
+import "./piper.css";
 
 function Piper() {
   const canvas = useRef(null);
@@ -44,12 +43,12 @@ function Piper() {
     context.scale(scaleX, scaleY);
     context.clearRect(0, 0, canvas.clientWidth, canvas.clientHeight);
 
-    // //background
-    context.beginPath();
-    context.rect(0, 0, 2000, 1000);
-    context.fillStyle = "paleGreen";
-    context.fill();
-    context.closePath();
+    // // //background
+    // context.beginPath();
+    // context.rect(0, 0, 2000, 1000);
+    // context.fillStyle = "paleGreen";
+    // context.fill();
+    // context.closePath();
 
     //foot 2
     context.beginPath();
@@ -483,16 +482,44 @@ function Piper() {
     context.fillStyle = "powderBlue";
     context.fill();
     context.closePath();
+    // message
+    context.beginPath();
+    context.font = "16px Comic Sans MS";
+    context.fillStyle = "white";
+    context.fillText("Don't be down", 10, 57);
+    context.closePath();
+    context.beginPath();
+    context.font = "16px Comic Sans MS";
+    context.fillStyle = "white";
+    context.fillText("Go", 45, 90);
+    context.closePath();
+    context.beginPath();
+    context.font = "16px Comic Sans MS";
+    context.fillStyle = "white";
+    context.fillText("Butterfree", 50, 120);
+    context.closePath();
   }
   return (
     <div className="App">
-      <div className="">
-        {/* <h6 className="">
-          “I only hope that we don't lose sight of one thing — that it was all
-          started by a mouse.”-Walt Disney.
-        </h6> */}
-        {/* <p>No explanation needed. LEGEND</p> */}
+      <div className="piper">
+        <h6 className="text">#Piper Bates, thanks for the idea 👍</h6>
         <canvas ref={canvas} style={{ width: "100%", height: "100%" }}></canvas>
+        <h6 className="butterfreeText">
+          What kind of suppose to look like...? 🦋
+        </h6>
+        <img
+          className="butterfree"
+          src="./images/Character-Chronicle-Butterfree.jpg"
+          alt="butterfree"
+        />
+        <h6 className="text">
+          Sorry couldn't leave out my personal favourite Charmander 😁
+        </h6>
+        <img
+          className="charmander"
+          src="./images/20210320_155852.jpg"
+          alt="my Charmander collection"
+        />
       </div>
     </div>
   );
