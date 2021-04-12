@@ -55,7 +55,7 @@ function Nav() {
               </Link>
               <Link to="/butterfree">
                 <ReactBootStrap.Nav.Link href="/butterfree">
-                  Piper
+                  #Thanks Piper
                 </ReactBootStrap.Nav.Link>
               </Link>
               {/* <ReactBootStrap.Nav.Link eventKey={2} href="#memes">
