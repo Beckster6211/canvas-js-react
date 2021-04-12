@@ -502,12 +502,24 @@ function Piper() {
   return (
     <div className="App">
       <div className="piper">
-        {/* <h6 className="">
-          “I only hope that we don't lose sight of one thing — that it was all
-          started by a mouse.”-Walt Disney.
-        </h6> */}
-        {/* <p>No explanation needed. LEGEND</p> */}
+        <h6 className="text">#Piper Bates, thanks for the idea 👍</h6>
         <canvas ref={canvas} style={{ width: "100%", height: "100%" }}></canvas>
+        <h6 className="butterfreeText">
+          What kind of suppose to look like...? 🦋
+        </h6>
+        <img
+          className="butterfree"
+          src="./images/Character-Chronicle-Butterfree.jpg"
+          alt="butterfree"
+        />
+        <h6 className="text">
+          Sorry couldn't leave out my personal favourite Charmander 😁
+        </h6>
+        <img
+          className="charmander"
+          src="./images/20210320_155852.jpg"
+          alt="my Charmander collection"
+        />
       </div>
     </div>
   );
