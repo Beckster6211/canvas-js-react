@@ -502,7 +502,7 @@ function Piper() {
   return (
     <div className="App">
       <div className="piper">
-        <h6 className="text">#Piper Bates, thanks for the idea 👍</h6>
+        <h6 className="text">#Piper, thanks for the idea 👍</h6>
         <canvas ref={canvas} style={{ width: "100%", height: "100%" }}></canvas>
         <h6 className="butterfreeText">
           What kind of suppose to look like...? 🦋
