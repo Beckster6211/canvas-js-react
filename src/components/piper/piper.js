@@ -81,6 +81,104 @@ function Piper() {
     context.fill();
     context.closePath();
 
+    //// wings
+    /// #1
+    context.beginPath();
+    context.ellipse(212, 48, 30, 10, Math.PI / 1.15, 0, Math.PI * 2);
+    context.fillStyle = "black";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(229, 63, 30, 9, Math.PI / 1.75, 0, Math.PI * 2);
+    context.fillStyle = "black";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(212, 91, 20, 12, Math.PI * 1.15, 0, Math.PI * 2);
+    context.fillStyle = "black";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.arc(213, 68, 22, 0, Math.PI * 2, false);
+    context.fillStyle = "black";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(221, 50, 20, 8, Math.PI / 1.35, 0, Math.PI * 2);
+    context.fillStyle = "black";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(220, 85, 10, 8, Math.PI / 1.45, 0, Math.PI * 2);
+    context.fillStyle = "black";
+    context.fill();
+    context.closePath();
+    ////
+    context.beginPath();
+    context.ellipse(212, 91, 15, 8, Math.PI * 1.15, 0, Math.PI * 2);
+    context.fillStyle = "white";
+    context.fill();
+    context.lineWidth = "1";
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(210, 90, 10, 5, Math.PI * 1.15, 0, Math.PI * 2);
+    context.fillStyle = "white";
+    context.fill();
+    context.lineWidth = "1";
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(213, 80, 15, 8, Math.PI * 1, 0, Math.PI * 2);
+    context.fillStyle = "white";
+    context.fill();
+    context.lineWidth = "1";
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(212, 70, 20, 8, Math.PI * 1, 0, Math.PI * 2);
+    context.fillStyle = "white";
+    context.fill();
+    context.lineWidth = "1";
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(212, 60, 25, 8, Math.PI * 0.95, 0, Math.PI * 2);
+    context.fillStyle = "white";
+    context.fill();
+    context.lineWidth = "1";
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(210, 51, 25, 8, Math.PI * 0.85, 0, Math.PI * 2);
+    context.fillStyle = "white";
+    context.fill();
+    context.lineWidth = "1";
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(202, 55, 15, 5, Math.PI * 0.85, 0, Math.PI * 2);
+    context.fillStyle = "black";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(199, 57, 15, 5, Math.PI * 0.85, 0, Math.PI * 2);
+    context.fillStyle = "white";
+    context.fill();
+    context.lineWidth = "1";
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    //////
+    // #2
+
+    ////
     //body
     context.beginPath();
     context.ellipse(187, 84, 25, 15, Math.PI / 2.4, 0, Math.PI * 2);
@@ -173,8 +271,9 @@ function Piper() {
     context.closePath();
 
     //antenna
+    // #1
     context.beginPath();
-    context.bezierCurveTo(172, 39, 150, 30, 160, 20);
+    context.bezierCurveTo(170, 39, 155, 30, 160, 20);
     context.lineWidth = 1;
     context.strokeStyle = "black";
     context.stroke();
@@ -184,16 +283,98 @@ function Piper() {
     context.fillStyle = "black";
     context.fill();
     context.closePath();
-
-    ////// templates
-
-    //eye line
+    // #2
     context.beginPath();
-    context.bezierCurveTo(35, 95, 38, 88, 56, 95);
+    context.bezierCurveTo(177, 37, 170, 30, 174, 20);
     context.lineWidth = 1;
     context.strokeStyle = "black";
     context.stroke();
     context.closePath();
+    context.beginPath();
+    context.ellipse(175, 18, 7, 2.5, Math.PI / 1.8, 0, Math.PI * 2);
+    context.fillStyle = "black";
+    context.fill();
+    context.closePath();
+
+    //// hands
+    // #1
+    context.beginPath();
+    context.ellipse(190, 79, 6, 3, Math.PI / 2.4, 0, Math.PI * 2);
+    context.fillStyle = "powderBlue";
+    context.fill();
+    context.lineWidth = "1";
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(191, 84.2, 3.5, 1.5, Math.PI / 1.6, 0, Math.PI * 2);
+    context.fillStyle = "powderBlue";
+    context.fill();
+    context.lineWidth = "1";
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(188, 80, 3.5, 1.5, Math.PI / 1.1, 0, Math.PI * 2);
+    context.fillStyle = "powderBlue";
+    context.fill();
+    context.lineWidth = "1";
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(188, 75, 3.5, 1.5, Math.PI / 3.5, 0, Math.PI * 2);
+    context.fillStyle = "powderBlue";
+    context.fill();
+    context.lineWidth = "1";
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(190.5, 79, 4, 1.8, Math.PI / 2.6, 0, Math.PI * 2);
+    context.fillStyle = "powderBlue";
+    context.fill();
+    context.closePath();
+    // #2
+    context.beginPath();
+    context.ellipse(175, 83, 6, 3, Math.PI / 2.3, 0, Math.PI * 2);
+    context.fillStyle = "powderBlue";
+    context.fill();
+    context.lineWidth = "1";
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(175.5, 78, 3.5, 1.5, Math.PI / 1.5, 0, Math.PI * 2);
+    context.fillStyle = "powderBlue";
+    context.fill();
+    context.lineWidth = "1";
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(178, 82.5, 3.5, 1.5, Math.PI / 1.1, 0, Math.PI * 2);
+    context.fillStyle = "powderBlue";
+    context.fill();
+    context.lineWidth = "1";
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(177, 87, 3.5, 1.5, Math.PI * 1.1, 0, Math.PI * 2);
+    context.fillStyle = "powderBlue";
+    context.fill();
+    context.lineWidth = "1";
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(175, 83, 4, 2.1, Math.PI / 2.7, 0, Math.PI * 2);
+    context.fillStyle = "powderBlue";
+    context.fill();
+    context.closePath();
+
+    ////// templates
 
     //tail
     context.beginPath();
