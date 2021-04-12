@@ -51,8 +51,6 @@ function Piper() {
     context.fill();
     context.closePath();
 
-    //feet
-
     //foot 2
     context.beginPath();
     context.ellipse(205, 118, 18, 7, Math.PI / 2.8, 0, Math.PI * 2);
@@ -289,6 +287,7 @@ function Piper() {
     context.fillStyle = "powderBlue";
     context.fill();
     context.closePath();
+
     ////
     //body
     context.beginPath();
@@ -483,29 +482,6 @@ function Piper() {
     context.ellipse(175, 83, 4, 2.1, Math.PI / 2.7, 0, Math.PI * 2);
     context.fillStyle = "powderBlue";
     context.fill();
-    context.closePath();
-
-    ////// templates
-
-    //tail
-    context.beginPath();
-    context.moveTo(290, 130);
-    context.lineTo(274, 115);
-    context.lineTo(258, 134);
-    context.fillStyle = "green";
-    context.fill();
-    context.closePath();
-    context.beginPath();
-    context.moveTo(290, 130);
-    context.lineTo(274, 115);
-    context.lineWidth = 1;
-    context.strokeStyle = "black";
-    context.stroke();
-    context.moveTo(290, 130);
-    context.lineTo(259.5, 133.5);
-    context.lineWidth = 1;
-    context.strokeStyle = "black";
-    context.stroke();
     context.closePath();
   }
   return (
