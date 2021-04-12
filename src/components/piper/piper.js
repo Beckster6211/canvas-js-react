@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-// import "../../App.css";
-// import "./mickey.css";
+import "./piper.css";
 
 function Piper() {
   const canvas = useRef(null);
@@ -44,12 +43,12 @@ function Piper() {
     context.scale(scaleX, scaleY);
     context.clearRect(0, 0, canvas.clientWidth, canvas.clientHeight);
 
-    // //background
-    context.beginPath();
-    context.rect(0, 0, 2000, 1000);
-    context.fillStyle = "paleGreen";
-    context.fill();
-    context.closePath();
+    // // //background
+    // context.beginPath();
+    // context.rect(0, 0, 2000, 1000);
+    // context.fillStyle = "paleGreen";
+    // context.fill();
+    // context.closePath();
 
     //foot 2
     context.beginPath();
@@ -483,10 +482,26 @@ function Piper() {
     context.fillStyle = "powderBlue";
     context.fill();
     context.closePath();
+    // message
+    context.beginPath();
+    context.font = "16px Comic Sans MS";
+    context.fillStyle = "white";
+    context.fillText("Don't be down", 10, 57);
+    context.closePath();
+    context.beginPath();
+    context.font = "16px Comic Sans MS";
+    context.fillStyle = "white";
+    context.fillText("Go", 45, 90);
+    context.closePath();
+    context.beginPath();
+    context.font = "16px Comic Sans MS";
+    context.fillStyle = "white";
+    context.fillText("Butterfree", 50, 120);
+    context.closePath();
   }
   return (
     <div className="App">
-      <div className="">
+      <div className="piper">
         {/* <h6 className="">
           “I only hope that we don't lose sight of one thing — that it was all
           started by a mouse.”-Walt Disney.
