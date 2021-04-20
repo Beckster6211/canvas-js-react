@@ -141,9 +141,9 @@ So I turned my crazy thought into a funny little image (and not to forget Amelia
 
 Piper is someone that I met whilst on the School of Code, we had an interesting chat about Pokemon and this was born from it.
 <br></br>
-The canvass drawing is of Pipers favourite (there is also an image below of what it is suppose to look like)
+The canvas drawing is of Pipers favourite (there is also an image below of what it is suppose to look like)
 
-###### Charmander is my favourite and I've put my own tribute to him on thee page as well.
+###### Charmander is my favourite and I've put my own tribute to him on the page as well.
 
 ## What to see? :eyes:
 
