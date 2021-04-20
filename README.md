@@ -137,7 +137,7 @@ So I turned my crazy thought into a funny little image (and not to forget Amelia
 
 ###### (There is also a tribute to them below my drawing) 🦖 🐼
 
-### #Thanks Piper
+### #Thanks Piper 🦋
 
 Piper is someone that I met whilst on the School of Code, we had an interesting chat about Pokemon and this was born from it.
 <br></br>
