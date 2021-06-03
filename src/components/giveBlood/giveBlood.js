@@ -50,6 +50,20 @@ function GiveBlood() {
     context.fill();
     context.closePath();
 
+    //billy hair
+    context.beginPath();
+    context.moveTo(136, 50);
+    context.bezierCurveTo(136, 50, 131, 53, 135, 57);
+    context.bezierCurveTo(134.5, 57, 140, 60, 133, 65);
+    context.bezierCurveTo(132.5, 66, 140, 68, 145, 64);
+    context.bezierCurveTo(140.5, 55.5, 137, 60, 136, 49);
+    context.lineWidth = 1.5;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.fillStyle = "red";
+    context.fill();
+    context.closePath();
+
     //billy body
     context.beginPath();
     context.ellipse(140, 90, 27, 18, Math.PI / 2, 0, Math.PI * 2);
@@ -59,29 +73,35 @@ function GiveBlood() {
     context.strokeStyle = "black";
     context.stroke();
     context.closePath();
+    context.beginPath();
+    context.ellipse(140, 64, 2, 4, Math.PI / 2, 0, Math.PI * 2);
+    context.fillStyle = "red";
+    context.fill();
+    context.closePath();
 
-    context.beginPath();
-    context.bezierCurveTo(136, 50, 131, 53, 135, 57);
-    context.lineWidth = 1;
-    context.strokeStyle = "black";
-    context.stroke();
-    context.closePath();
-    context.beginPath();
-    context.bezierCurveTo(134.5, 57, 140, 60, 133, 65);
-    context.lineWidth = 1;
-    context.strokeStyle = "black";
-    context.stroke();
-    context.closePath();
-    context.beginPath();
-    context.bezierCurveTo(136, 50, 138, 55, 147, 64);
-    context.lineWidth = 1;
-    context.strokeStyle = "blue";
-    context.stroke();
-    context.closePath();
+    ////////
     // context.beginPath();
-    // context.bezierCurveTo(129, 68, 142, 60, 135, 55);
+    // context.bezierCurveTo(134.5, 57, 140, 60, 133, 65);
     // context.lineWidth = 1;
-    // context.strokeStyle = "orange";
+    // context.strokeStyle = "black";
+    // context.stroke();
+    // context.closePath();
+    // context.beginPath();
+    // context.bezierCurveTo(136, 50, 138, 55, 141, 56);
+    // context.lineWidth = 1;
+    // context.strokeStyle = "black";
+    // context.stroke();
+    // context.closePath();
+    // context.beginPath();
+    // context.bezierCurveTo(140.5, 55.5, 144, 60, 145, 64);
+    // context.lineWidth = 1;
+    // context.strokeStyle = "black";
+    // context.stroke();
+    // context.closePath();
+    // context.beginPath();
+    // context.bezierCurveTo(133, 65.5, 140, 68, 145, 64);
+    // context.lineWidth = 1;
+    // context.strokeStyle = "black";
     // context.stroke();
     // context.closePath();
 
