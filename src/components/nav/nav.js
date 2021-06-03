@@ -8,6 +8,7 @@ import Birthday from "../birthday/birthday";
 import Mickey from "../mickey/mickey";
 import PandaTrex from "../pandaTrex/pandaTrex";
 import Piper from "../piper/piper";
+import GiveBlood from "../giveBlood/giveBlood";
 
 function Nav() {
   const renderTooltip = (props) => (
@@ -58,6 +59,11 @@ function Nav() {
                   #Thanks Piper
                 </ReactBootStrap.Nav.Link>
               </Link>
+              <Link to="/giveblood">
+                <ReactBootStrap.Nav.Link href="/giveblood">
+                  Give Blood
+                </ReactBootStrap.Nav.Link>
+              </Link>
               {/* <ReactBootStrap.Nav.Link eventKey={2} href="#memes">
                 Dank memes
               </ReactBootStrap.Nav.Link> */}
@@ -65,6 +71,9 @@ function Nav() {
           </ReactBootStrap.Navbar.Collapse>
         </ReactBootStrap.Navbar>
         <Switch>
+          <Route path="/giveblood">
+            <GiveBlood />
+          </Route>
           <Route path="/butterfree">
             <Piper />
           </Route>
