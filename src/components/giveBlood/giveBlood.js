@@ -61,29 +61,29 @@ function GiveBlood() {
     context.closePath();
 
     context.beginPath();
-    context.bezierCurveTo(135, 44, 128, 48, 135, 55);
+    context.bezierCurveTo(136, 50, 131, 53, 135, 57);
     context.lineWidth = 1;
     context.strokeStyle = "black";
     context.stroke();
     context.closePath();
     context.beginPath();
-    context.bezierCurveTo(135, 44, 135, 48, 145, 55);
+    context.bezierCurveTo(134.5, 57, 140, 60, 133, 65);
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.bezierCurveTo(136, 50, 138, 55, 147, 64);
     context.lineWidth = 1;
     context.strokeStyle = "blue";
     context.stroke();
     context.closePath();
-    context.beginPath();
-    context.bezierCurveTo(145, 64, 150, 55, 145, 55);
-    context.lineWidth = 1;
-    context.strokeStyle = "black";
-    context.stroke();
-    context.closePath();
-    context.beginPath();
-    context.bezierCurveTo(129, 68, 142, 60, 135, 55);
-    context.lineWidth = 1;
-    context.strokeStyle = "black";
-    context.stroke();
-    context.closePath();
+    // context.beginPath();
+    // context.bezierCurveTo(129, 68, 142, 60, 135, 55);
+    // context.lineWidth = 1;
+    // context.strokeStyle = "orange";
+    // context.stroke();
+    // context.closePath();
 
     // //cake
     // context.beginPath();
