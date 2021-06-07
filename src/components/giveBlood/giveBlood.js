@@ -87,6 +87,30 @@ function GiveBlood() {
     context.fillStyle = "red";
     context.fill();
     context.closePath();
+
+    //left arm
+    context.beginPath();
+    context.ellipse(157, 91, 11, 4, Math.PI / 3.2, 0, Math.PI * 2);
+    context.fillStyle = "red";
+    context.fill();
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(169, 95, 7, 3, Math.PI / 1.3, 0, Math.PI * 2);
+    context.fillStyle = "red";
+    context.fill();
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(163.5, 97.8, 2, 2, Math.PI / 2, 0, Math.PI * 2);
+    context.fillStyle = "red";
+    context.fill();
+    context.closePath();
+
     //left leg
     context.beginPath();
     context.ellipse(144.5, 118, 7, 2, Math.PI / 2, 0, Math.PI * 2);
@@ -309,6 +333,22 @@ function GiveBlood() {
     context.beginPath();
     context.ellipse(124, 113, 2, 3.9, Math.PI / 3, 0, Math.PI * 2);
     context.fillStyle = "white";
+    context.fill();
+    context.closePath();
+
+    //bloodbag
+    //background
+    context.beginPath();
+    context.moveTo(180, 88);
+    context.bezierCurveTo(173, 88, 170, 85, 171, 102);
+    context.bezierCurveTo(172, 110, 168, 118, 180, 116);
+    context.moveTo(180, 88);
+    context.bezierCurveTo(190, 88, 189, 85, 190, 102);
+    context.bezierCurveTo(190, 110, 193, 119, 180, 116);
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.fillStyle = "lightGrey";
     context.fill();
     context.closePath();
 
