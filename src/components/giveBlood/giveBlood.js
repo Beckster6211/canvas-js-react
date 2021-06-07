@@ -519,6 +519,19 @@ function GiveBlood() {
     //left
     // mouth
     context.beginPath();
+    context.moveTo(152, 92);
+    context.lineTo(154, 89);
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.bezierCurveTo(150, 89, 153, 86, 156, 92);
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
     context.bezierCurveTo(128, 94, 144, 102, 152.5, 91);
     context.bezierCurveTo(152.5, 91, 145, 125, 128, 94);
     context.lineWidth = 1;
@@ -544,6 +557,13 @@ function GiveBlood() {
     context.fill();
     context.closePath();
     // nose
+
+    context.beginPath();
+    context.ellipse(141, 89, 2, 3, Math.PI / 2, 0, Math.PI * 2);
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
 
     ////////
     // context.beginPath();
