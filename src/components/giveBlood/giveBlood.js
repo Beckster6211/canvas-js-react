@@ -131,7 +131,7 @@ function GiveBlood() {
     context.closePath();
     context.beginPath();
     context.ellipse(147, 128, 6.8, 4, Math.PI / 1, 0, Math.PI * 2);
-    context.fillStyle = "grey";
+    context.fillStyle = "white";
     context.fill();
     context.lineWidth = 1;
     context.strokeStyle = "black";
@@ -142,14 +142,14 @@ function GiveBlood() {
     context.moveTo(149, 125);
     context.lineTo(148, 128);
     context.lineWidth = 0.7;
-    context.strokeStyle = "white";
+    context.strokeStyle = "black";
     context.stroke();
     context.closePath();
     context.beginPath();
     context.moveTo(151, 125);
     context.lineTo(150, 128);
     context.lineWidth = 0.7;
-    context.strokeStyle = "white";
+    context.strokeStyle = "black";
     context.stroke();
     context.closePath();
     // // context.beginPath();
@@ -187,7 +187,7 @@ function GiveBlood() {
     context.closePath();
     context.beginPath();
     context.ellipse(137, 129.2, 6.8, 4, Math.PI / 1, 0, Math.PI * 2);
-    context.fillStyle = "grey";
+    context.fillStyle = "white";
     context.fill();
     context.lineWidth = 1;
     context.strokeStyle = "black";
@@ -197,13 +197,13 @@ function GiveBlood() {
     context.beginPath();
     context.bezierCurveTo(140, 125, 140, 125, 138, 128.5);
     context.lineWidth = 0.9;
-    context.strokeStyle = "white";
+    context.strokeStyle = "black";
     context.stroke();
     context.closePath();
     context.beginPath();
     context.bezierCurveTo(141.8, 127, 141.8, 125.5, 140.5, 130);
     context.lineWidth = 0.9;
-    context.strokeStyle = "white";
+    context.strokeStyle = "black";
     context.stroke();
     context.closePath();
 
@@ -348,7 +348,7 @@ function GiveBlood() {
     context.lineWidth = 1.5;
     context.strokeStyle = "black";
     context.stroke();
-    context.fillStyle = "lightGrey";
+    context.fillStyle = "grey";
     context.fill();
     context.closePath();
     //contents
@@ -441,6 +441,109 @@ function GiveBlood() {
     context.fillStyle = "black";
     context.fillText("RO", 188, 131);
     context.closePath();
+
+    //left hand
+    context.beginPath();
+    context.ellipse(177, 89, 1.5, 2.5, Math.PI / 1, 0, Math.PI * 2);
+    context.fillStyle = "white";
+    context.fill();
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(180, 89, 1.5, 2.5, Math.PI / 1, 0, Math.PI * 2);
+    context.fillStyle = "white";
+    context.fill();
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(183, 89, 1.5, 2.5, Math.PI / 1, 0, Math.PI * 2);
+    context.fillStyle = "white";
+    context.fill();
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+
+    //face
+    // eyes
+    //right
+    // context.beginPath();
+    // // context.moveTo(142, 90);
+    // context.bezierCurveTo(143, 91, 144, 85, 135, 78);
+    // context.bezierCurveTo(135, 78, 134, 85, 135, 91);
+    // // context.moveTo(180, 88);
+    // context.bezierCurveTo(135, 91, 139, 93, 143, 91);
+    // // context.bezierCurveTo(190, 110, 193, 119, 180, 116);
+    // context.lineWidth = 1;
+    // context.strokeStyle = "black";
+    // context.stroke();
+    // // context.fillStyle = "white";
+    // // context.fill();
+    // context.closePath();
+    // context.beginPath();
+    // context.ellipse(135, 85, 2, 4, Math.PI / 6, 0, Math.PI * 2);
+    // context.fillStyle = "white";
+    // context.fill();
+    // context.lineWidth = 1;
+    // context.strokeStyle = "black";
+    // context.stroke();
+    // context.closePath();
+    // context.beginPath();
+    // context.ellipse(139, 85, 2, 4, Math.PI / 1.1, 0, Math.PI * 2);
+    // context.fillStyle = "white";
+    // context.fill();
+    // context.lineWidth = 1;
+    // context.strokeStyle = "black";
+    // context.stroke();
+    // context.closePath();
+    // context.beginPath();
+    // context.ellipse(137, 89, 2, 4, Math.PI / 2, 0, Math.PI * 2);
+    // context.fillStyle = "white";
+    // context.fill();
+    // context.lineWidth = 1;
+    // context.strokeStyle = "black";
+    // context.stroke();
+    // context.closePath();
+    // context.beginPath();
+    // context.ellipse(137, 86.5, 3.9, 3.2, Math.PI / 2, 0, Math.PI * 2);
+    // context.fillStyle = "white";
+    // context.fill();
+    // // context.lineWidth = 1;
+    // // context.strokeStyle = "black";
+    // // context.stroke();
+    // context.closePath();
+    //left
+    // mouth
+    context.beginPath();
+    context.bezierCurveTo(128, 94, 144, 102, 152.5, 91);
+    context.bezierCurveTo(152.5, 91, 145, 125, 128, 94);
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.fillStyle = "black";
+    context.fill();
+    context.closePath();
+    //tongue
+    context.beginPath();
+    context.ellipse(144, 104, 2, 3, Math.PI / 3.5, 0, Math.PI * 2);
+    context.fillStyle = "pink";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(142, 105, 2, 3, Math.PI / 3.5, 0, Math.PI * 2);
+    context.fillStyle = "pink";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(139, 104.5, 2, 3, Math.PI / 1.7, 0, Math.PI * 2);
+    context.fillStyle = "pink";
+    context.fill();
+    context.closePath();
+    // nose
 
     ////////
     // context.beginPath();
