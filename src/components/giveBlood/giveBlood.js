@@ -601,7 +601,7 @@ function GiveBlood() {
     context.closePath();
     context.beginPath();
     context.moveTo(15, 130);
-    context.lineTo(10, 140);
+    context.lineTo(8, 144);
     context.lineTo(23, 133);
     context.lineWidth = 2;
     context.strokeStyle = "black";
