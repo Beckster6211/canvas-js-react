@@ -590,6 +590,31 @@ function GiveBlood() {
     context.fillText("and a biscuit", 39, 49);
     context.closePath();
 
+    // sticker bubble
+    context.beginPath();
+    context.ellipse(65, 127, 10, 53, Math.PI / 2, 0, Math.PI * 2);
+    context.lineWidth = 2;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.fillStyle = "white";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.moveTo(15, 130);
+    context.lineTo(10, 140);
+    context.lineTo(23, 133);
+    context.lineWidth = 2;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.fillStyle = "white";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.font = "8px Comic Sans MS";
+    context.fillStyle = "black";
+    context.fillText("Don't forget your sticker", 18, 130);
+    context.closePath();
+
     // // smiley face
     // // face background
     // context.beginPath();
