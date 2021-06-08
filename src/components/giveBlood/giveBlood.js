@@ -582,12 +582,12 @@ function GiveBlood() {
     context.beginPath();
     context.font = "9px Comic Sans MS";
     context.fillStyle = "black";
-    context.fillText("cup of tea", 35, 39);
+    context.fillText("cup of tea", 34, 39);
     context.closePath();
     context.beginPath();
     context.font = "9px Comic Sans MS";
     context.fillStyle = "black";
-    context.fillText("and a biscuit", 30, 49);
+    context.fillText("and a biscuit", 39, 49);
     context.closePath();
 
     // // smiley face
