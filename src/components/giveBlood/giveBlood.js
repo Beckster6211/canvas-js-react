@@ -555,110 +555,40 @@ function GiveBlood() {
     context.stroke();
     context.closePath();
 
-    ////////
-    // context.beginPath();
-    // context.bezierCurveTo(134.5, 57, 140, 60, 133, 65);
-    // context.lineWidth = 1;
-    // context.strokeStyle = "black";
-    // context.stroke();
-    // context.closePath();
-    // context.beginPath();
-    // context.bezierCurveTo(136, 50, 138, 55, 141, 56);
-    // context.lineWidth = 1;
-    // context.strokeStyle = "black";
-    // context.stroke();
-    // context.closePath();
-    // context.beginPath();
-    // context.bezierCurveTo(140.5, 55.5, 144, 60, 145, 64);
-    // context.lineWidth = 1;
-    // context.strokeStyle = "black";
-    // context.stroke();
-    // context.closePath();
-    // context.beginPath();
-    // context.bezierCurveTo(133, 65.5, 140, 68, 145, 64);
-    // context.lineWidth = 1;
-    // context.strokeStyle = "black";
-    // context.stroke();
-    // context.closePath();
-
-    // //cake
-    // context.beginPath();
-    // context.ellipse(140, 128, 20, 10, Math.PI / 1, 0, Math.PI * 2);
-    // context.fillStyle = "chocolate";
-    // context.fill();
-    // context.lineWidth = 1;
-    // context.strokeStyle = "black";
-    // context.stroke();
-    // context.closePath();
-    // context.beginPath();
-    // context.rect(120, 101, 40, 25);
-    // context.fillStyle = "chocolate";
-    // context.fill();
-    // context.closePath();
-    // //cake outline
-    // context.beginPath();
-    // context.moveTo(120, 100);
-    // context.lineTo(120, 127);
-    // context.strokeStyle = "black";
-    // context.lineWidth = 1;
-    // context.stroke();
-    // context.closePath();
-    // context.beginPath();
-    // context.moveTo(160, 100);
-    // context.lineTo(160, 127);
-    // context.strokeStyle = "black";
-    // context.lineWidth = 1;
-    // context.stroke();
-    // context.closePath();
-
-    // // icing
-    // context.beginPath();
-    // context.ellipse(124, 105, 7, 4, Math.PI / 2, 0, Math.PI * 2);
-    // context.fillStyle = "pink";
-    // context.fill();
-    // context.lineWidth = 1;
-    // context.strokeStyle = "black";
-    // context.stroke();
-    // context.closePath();
-    //
-
-    // // candles
-    // //candle 1
-    // context.beginPath();
-    // context.rect(123.5, 87, 4, 15);
-    // context.fillStyle = "white";
-    // context.fill();
-    // context.closePath();
-    // //pattern
-    // context.beginPath();
-    // context.moveTo(123.5, 87);
-    // context.lineTo(127.5, 90);
-    // context.strokeStyle = "blue";
-    // context.lineCap = "round";
-    // context.lineWidth = 0.5;
-    // context.stroke();
-    // context.closePath();
-
-    // //balloons
-    // //string
-    // context.beginPath();
-    // context.moveTo(35, 76);
-    // context.lineTo(45, 114);
-    // context.lineWidth = 1;
-    // context.strokeStyle = "black";
-    // context.stroke();
-    // context.closePath();
-    // context.beginPath();
-    // context.moveTo(33, 70);
-    // context.lineTo(30, 78);
-    // context.lineTo(40, 75);
-    // context.lineTo(33, 70);
-    // context.fillStyle = "springGreen";
-    // context.fill();
-    // context.lineWidth = 1;
-    // context.strokeStyle = "black";
-    // context.stroke();
-    // context.closePath();
+    // speech bubbles
+    context.beginPath();
+    context.ellipse(58, 35, 21, 43, Math.PI / 2, 0, Math.PI * 2);
+    context.lineWidth = 2;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.fillStyle = "white";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.moveTo(97, 43);
+    context.lineTo(110, 65);
+    context.lineTo(79, 53);
+    context.lineWidth = 2;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.fillStyle = "white";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.font = "9px Comic Sans MS";
+    context.fillStyle = "black";
+    context.fillText("Good trade for a", 24, 30);
+    context.closePath();
+    context.beginPath();
+    context.font = "9px Comic Sans MS";
+    context.fillStyle = "black";
+    context.fillText("cup of tea", 35, 39);
+    context.closePath();
+    context.beginPath();
+    context.font = "9px Comic Sans MS";
+    context.fillStyle = "black";
+    context.fillText("and a biscuit", 30, 49);
+    context.closePath();
 
     // // smiley face
     // // face background
@@ -669,69 +599,6 @@ function GiveBlood() {
     // context.lineWidth = 1;
     // context.strokeStyle = "black";
     // context.stroke();
-    // context.closePath();
-
-    // //smile
-    // context.beginPath();
-    // context.bezierCurveTo(253, 125, 265, 140, 277, 125);
-    // context.lineWidth = 1.5;
-    // context.strokeStyle = "black";
-    // context.stroke();
-    // context.closePath();
-    // //eyes
-    // context.beginPath();
-    // context.bezierCurveTo(253, 115, 258, 108, 262, 115);
-    // context.lineWidth = 1.5;
-    // context.strokeStyle = "black";
-    // context.stroke();
-    // context.closePath();
-    // //hat
-    // context.beginPath();
-    // context.moveTo(283, 110);
-    // context.lineTo(280, 80);
-    // context.lineTo(260, 100);
-    // context.lineTo(283, 110);
-    // context.fillStyle = "white";
-    // context.fill();
-    // context.lineWidth = 1;
-    // context.strokeStyle = "black";
-    // context.stroke();
-    // context.closePath();
-
-    // //present
-    // context.beginPath();
-    // context.rect(190, 30, 25, 30);
-    // context.fillStyle = "lightGrey";
-    // context.fill();
-    // context.closePath();
-    // //bow
-    // context.beginPath();
-    // context.rect(190, 42, 25, 5);
-    // context.fillStyle = "skyBlue";
-    // context.fill();
-    // context.closePath();
-    // context.beginPath();
-    // context.rect(200, 30, 5, 30);
-    // context.fillStyle = "skyBlue";
-    // context.fill();
-    // context.closePath();
-    // context.beginPath();
-    // context.bezierCurveTo(202, 30, 200, 23, 208, 20);
-    // context.lineWidth = 2.5;
-    // context.strokeStyle = "skyBlue";
-    // context.stroke();
-    // context.closePath();
-    // context.beginPath();
-    // context.bezierCurveTo(210, 20, 214, 26, 204, 30);
-    // context.lineWidth = 2.5;
-    // context.strokeStyle = "skyBlue";
-    // context.stroke();
-    // context.closePath();
-    // //message
-    // context.beginPath();
-    // context.font = "15px Comic Sans MS";
-    // context.fillStyle = "black";
-    // context.fillText("Becky", 178, 125);
     // context.closePath();
   }
   return (
