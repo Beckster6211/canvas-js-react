@@ -482,6 +482,12 @@ function GiveBlood() {
     context.fillStyle = "white";
     context.fill();
     context.closePath();
+    //pupil
+    context.beginPath();
+    context.ellipse(137, 81, 2.8, 3.8, Math.PI / 5, 0, Math.PI * 2);
+    context.fillStyle = "black";
+    context.fill();
+    context.closePath();
     //left
     context.beginPath();
     context.bezierCurveTo(147, 72, 143, 75, 143, 82);
@@ -493,6 +499,12 @@ function GiveBlood() {
     context.strokeStyle = "black";
     context.stroke();
     context.fillStyle = "white";
+    context.fill();
+    context.closePath();
+    //pupil
+    context.beginPath();
+    context.ellipse(150, 80.7, 2.8, 3.8, Math.PI / 5, 0, Math.PI * 2);
+    context.fillStyle = "black";
     context.fill();
     context.closePath();
     // mouth
