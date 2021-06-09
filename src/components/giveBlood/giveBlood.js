@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-// import "./birthday.css";
+import "./giveBlood.css";
 
 function GiveBlood() {
   const canvas = useRef(null);
@@ -152,18 +152,6 @@ function GiveBlood() {
     context.strokeStyle = "black";
     context.stroke();
     context.closePath();
-    // // context.beginPath();
-    // // context.bezierCurveTo(149.8, 124.3, 148, 126, 148.5, 128);
-    // // context.lineWidth = 0.9;
-    // // context.strokeStyle = "white";
-    // // context.stroke();
-    // // context.closePath();
-    // context.beginPath();
-    // context.bezierCurveTo(150, 124, 149, 126, 144, 130);
-    // context.lineWidth = 0.9;
-    // context.strokeStyle = "white";
-    // context.stroke();
-    // context.closePath();
 
     // legs
     //right leg
@@ -238,7 +226,7 @@ function GiveBlood() {
     context.fill();
     context.closePath();
 
-    //sock
+    //left sock
     context.beginPath();
     context.ellipse(144.5, 124.5, 2.5, 1, Math.PI / 1, 0, Math.PI * 2);
     context.fillStyle = "white";
@@ -592,7 +580,7 @@ function GiveBlood() {
 
     // sticker bubble
     context.beginPath();
-    context.ellipse(65, 127, 10, 53, Math.PI / 2, 0, Math.PI * 2);
+    context.ellipse(68, 126, 10, 60, Math.PI / 2, 0, Math.PI * 2);
     context.lineWidth = 2;
     context.strokeStyle = "black";
     context.stroke();
@@ -602,7 +590,7 @@ function GiveBlood() {
     context.beginPath();
     context.moveTo(15, 130);
     context.lineTo(8, 144);
-    context.lineTo(23, 133);
+    context.lineTo(23, 132);
     context.lineWidth = 2;
     context.strokeStyle = "black";
     context.stroke();
@@ -610,9 +598,9 @@ function GiveBlood() {
     context.fill();
     context.closePath();
     context.beginPath();
-    context.font = "8px Comic Sans MS";
+    context.font = "9px Comic Sans MS";
     context.fillStyle = "black";
-    context.fillText("Don't forget your sticker", 18, 130);
+    context.fillText("Don't forget your sticker", 15, 130);
     context.closePath();
 
     // // smiley face
@@ -628,9 +616,53 @@ function GiveBlood() {
   }
   return (
     <div className="App">
-      <div className="birthday">
-        {/* <p className="text">Hope You Have A Great Day</p> */}
+      <div className="giveBlood">
+        <p className="icons">
+          Give Blood, it's easy and fun (honest 😇)&nbsp;A cuppa ☕, biscuit 🍪,
+          bag of crisps&nbsp;
+          <img
+            className="emojidex-emoji"
+            src="https://cdn.emojidex.com/emoji/hdpi/crisps.png"
+            emoji-code="crisps"
+            alt="crisps"
+          />{" "}
+          and a sticker 🩸 (once I got popcorn 🍿 proper popcorn, butterkist 😋
+          yum yum)
+        </p>
         <canvas ref={canvas} style={{ width: "100%", height: "100%" }}></canvas>
+        <div>
+          <img
+            className="giveBloodLogo"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRNf2me3w08E372Gc1CZPdiUJ-MouweBbroFicT3JmOpmePYkMIsCucxqPZpkKiz9C4b0&usqp=CAU"
+            // width="100px"
+            // height="100px"
+            alt="give blood logo"
+          />
+        </div>
+        <div>
+          <img
+            className="bloodAndTransplantLogo"
+            src="https://nhsbtdbe.blob.core.windows.net/umbraco-assets-corp/3760/nhsbt-left-align_scaled.svg"
+            // width="100px"
+            alt="blood and transparent logo"
+          />
+        </div>
+        <div>
+          <p>
+            Check out their site &nbsp;
+            <a href="https://www.blood.co.uk/" target="_blank" rel="noreferrer">
+              www.blood.co.uk
+            </a>
+          </p>
+          <p>
+            Giving blood save lives and not just one life either, the
+            manufactoring process of blood is so clever that one donation could
+            be used by 3 people.
+            <br />
+            Don't believe me check out this video of what happens to a
+            donation...
+          </p>
+        </div>
         {/* <p>Best Wishes</p> */}
       </div>
     </div>

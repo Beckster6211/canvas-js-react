@@ -1,0 +1,33 @@
+.giveBlood {
+  min-height: 100vh;
+  /* text-align: center; */
+  font-weight: 500;
+
+  padding-top: 1%;
+}
+
+.icons {
+  font-size: 1.2rem;
+  padding-top: 0.4%;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: center;
+}
+
+.giveBloodLogo {
+  position: absolute;
+  width: 22%;
+  height: auto;
+  z-index: 1;
+  right: 4%;
+  bottom: 0%;
+}
+
+.bloodAndTransplantLogo {
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  right: 10%;
+  width: 28%;
+  height: auto;
+}
