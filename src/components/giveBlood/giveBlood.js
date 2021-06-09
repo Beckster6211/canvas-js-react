@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import ReactPlayer from "react-player";
 import "./giveBlood.css";
 
 function GiveBlood() {
@@ -602,17 +603,6 @@ function GiveBlood() {
     context.fillStyle = "black";
     context.fillText("Don't forget your sticker", 15, 130);
     context.closePath();
-
-    // // smiley face
-    // // face background
-    // context.beginPath();
-    // context.arc(265, 120, 20, 0, Math.PI * 2, false);
-    // context.fillStyle = "gold";
-    // context.fill();
-    // context.lineWidth = 1;
-    // context.strokeStyle = "black";
-    // context.stroke();
-    // context.closePath();
   }
   return (
     <div className="App">
@@ -626,8 +616,8 @@ function GiveBlood() {
             emoji-code="crisps"
             alt="crisps"
           />{" "}
-          and a sticker 🩸 (once I got popcorn 🍿 proper popcorn, butterkist 😋
-          yum yum)
+          and a sticker 🩸 (once I got popcorn 🍿 proper popcorn as well,
+          butterkist 😋 yum yum)
         </p>
         <canvas ref={canvas} style={{ width: "100%", height: "100%" }}></canvas>
         <div>
@@ -647,23 +637,69 @@ function GiveBlood() {
             alt="blood and transparent logo"
           />
         </div>
+        <p className="cheekyComment">FYI - Thats my blood type 😄 </p>
+        <div className="video">
+          <div className="giveBloodVideo">
+            <p className="giveBloodText">
+              Giving blood save lives and not just one life either, the
+              manufactoring process of blood is so clever that one donation
+              could be used by 3 people.
+              <br />
+              Sounds unbelievable 🤯, check out this cool video of what happens
+              to a donation...
+            </p>
+            <ReactPlayer
+              url="https://www.youtube.com/watch?v=rTZdFd8gbCA"
+              controls
+              width="99%"
+              height="500px"
+            />
+          </div>
+          <div className="giveBloodVideo">
+            <p className="giveBloodText">
+              The first time I did it was just to find out my blood group 🤷
+              (nice thing to know about yourself) The staff are super brilliant
+              and really friendly.
+            </p>
+            <ReactPlayer
+              url="https://www.youtube.com/watch?v=FXmkVg8a2Mo&t=31s"
+              controls
+              width="99%"
+              height="500px"
+            />
+          </div>
+          <div className="giveBloodVideo">
+            <p className="giveBloodText">The different blood types</p>
+            <ReactPlayer
+              url="https://www.youtube.com/watch?v=B6dAPXpUjCE"
+              controls
+              width="99%"
+              height="500px"
+            />
+          </div>
+        </div>
         <div>
-          <p>
+          <p className="giveBloodText">
             Check out their site &nbsp;
             <a href="https://www.blood.co.uk/" target="_blank" rel="noreferrer">
               www.blood.co.uk
             </a>
           </p>
-          <p>
-            Giving blood save lives and not just one life either, the
-            manufactoring process of blood is so clever that one donation could
-            be used by 3 people.
-            <br />
-            Don't believe me check out this video of what happens to a
-            donation...
+          <p className="giveBloodOffer">
+            Thinking about it? 😬 Nervous? Want to talk to someone? Got
+            questions? I'll give them a go, even if you want comfort 🤝 or
+            someone to go with you 🙋 (depending on where, I can't drive but
+            I'll try, &nbsp;
+            <a
+              href="https://www.linkedin.com/in/rebecca-jones-b3b5601b6/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              My LinkedIn
+            </a>{" "}
+            message me 👍)
           </p>
         </div>
-        {/* <p>Best Wishes</p> */}
       </div>
     </div>
   );

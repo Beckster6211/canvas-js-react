@@ -7,7 +7,7 @@
 }
 
 .icons {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   padding-top: 0.4%;
   padding-left: 2%;
   padding-right: 2%;
@@ -30,4 +30,26 @@
   right: 10%;
   width: 28%;
   height: auto;
+}
+
+.giveBloodVideo {
+  padding: 1%;
+}
+
+.giveBloodText {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.cheekyComment {
+  position: absolute;
+  z-index: 1;
+  bottom: -15%;
+  right: 31%;
+  text-align: center;
+  font-size: 0.9;
+}
+
+.giveBloodOffer {
+  text-align: center;
 }
