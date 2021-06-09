@@ -608,16 +608,15 @@ function GiveBlood() {
     <div className="App">
       <div className="giveBlood">
         <p className="icons">
-          Give Blood, it's easy and fun (honest 😇)&nbsp;A cuppa ☕, biscuit 🍪,
-          bag of crisps&nbsp;
+          Give Blood, it's easy and fun (honest 😇)&nbsp;A cuppa☕, biscuit🍪,
+          bag of crisps
           <img
             className="emojidex-emoji"
             src="https://cdn.emojidex.com/emoji/hdpi/crisps.png"
             emoji-code="crisps"
             alt="crisps"
-          />{" "}
-          and a sticker 🩸 (once I got popcorn 🍿 proper popcorn as well,
-          butterkist 😋 yum yum)
+          />
+          and a sticker🩸(once I got popcorn🍿butterkist as well😋yum)
         </p>
         <canvas ref={canvas} style={{ width: "100%", height: "100%" }}></canvas>
         <div>
@@ -652,7 +651,7 @@ function GiveBlood() {
               url="https://www.youtube.com/watch?v=rTZdFd8gbCA"
               controls
               width="99%"
-              height="500px"
+              height="450px"
             />
           </div>
           <div className="giveBloodVideo">
@@ -665,16 +664,18 @@ function GiveBlood() {
               url="https://www.youtube.com/watch?v=FXmkVg8a2Mo&t=31s"
               controls
               width="99%"
-              height="500px"
+              height="450px"
             />
           </div>
           <div className="giveBloodVideo">
-            <p className="giveBloodText">The different blood types</p>
+            <p className="giveBloodText">
+              The different blood types and who accepts them
+            </p>
             <ReactPlayer
               url="https://www.youtube.com/watch?v=B6dAPXpUjCE"
               controls
               width="99%"
-              height="500px"
+              height="450px"
             />
           </div>
         </div>
