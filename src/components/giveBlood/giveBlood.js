@@ -616,7 +616,7 @@ function GiveBlood() {
             emoji-code="crisps"
             alt="crisps"
           />
-          and a sticker🩸(once I got popcorn🍿butterkist as well😋yum)
+          and a sticker🩸(once I got popcorn🍿proper butterkist as well😋yum)
         </p>
         <canvas ref={canvas} style={{ width: "100%", height: "100%" }}></canvas>
         <div>
