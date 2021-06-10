@@ -45,10 +45,10 @@
 .cheekyComment {
   position: absolute;
   z-index: 1;
-  top: 33%;
+  top: 40%;
   right: 31%;
   text-align: center;
-  font-size: 0.9;
+  font-size: 0.9rem;
 }
 
 .giveBloodOffer {
@@ -56,7 +56,392 @@
   font-size: 1rem;
 }
 
-@media only screen and (max-width: 410px) and (orientation: portrait) {
+@media only screen and (max-width: 600px) {
+  .icons {
+    font-size: 0.8rem;
+    padding-top: 0.4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+  }
+
+  .bloodAndTransplantLogo {
+    position: absolute;
+    z-index: 1;
+    top: 5%;
+    right: 8%;
+    width: 32%;
+    height: auto;
+  }
+
+  .giveBloodLogo {
+    position: absolute;
+    width: 23%;
+    height: auto;
+    z-index: 1;
+    right: 5%;
+    top: 10%;
+  }
+
+  .giveBloodText {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  .giveBloodOffer {
+    text-align: center;
+    font-size: 0.7rem;
+  }
+  .cheekyComment {
+    position: absolute;
+    z-index: 1;
+    top: 16.4%;
+    right: 31%;
+    text-align: center;
+    font-size: 0.6rem;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .icons {
+    font-size: 0.8rem;
+    padding-top: 0.4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+  }
+
+  .bloodAndTransplantLogo {
+    position: absolute;
+    z-index: 1;
+    top: 5%;
+    right: 8%;
+    width: 32%;
+    height: auto;
+  }
+
+  .giveBloodLogo {
+    position: absolute;
+    width: 23%;
+    height: auto;
+    z-index: 1;
+    right: 5%;
+    top: 10%;
+  }
+
+  .giveBloodText {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  .giveBloodOffer {
+    text-align: center;
+    font-size: 0.7rem;
+  }
+  .cheekyComment {
+    position: absolute;
+    z-index: 1;
+    top: 16.4%;
+    right: 31%;
+    text-align: center;
+    font-size: 0.6rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .icons {
+    font-size: 1rem;
+    padding-top: 0.4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+  }
+
+  .bloodAndTransplantLogo {
+    position: absolute;
+    z-index: 1;
+    top: 6%;
+    right: 8%;
+    width: 34%;
+    height: auto;
+  }
+
+  .giveBloodLogo {
+    position: absolute;
+    width: 23%;
+    height: auto;
+    z-index: 1;
+    right: 5%;
+    top: 14%;
+  }
+
+  .giveBloodText {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+
+  .giveBloodOffer {
+    text-align: center;
+    font-size: 0.9em;
+  }
+  .cheekyComment {
+    position: absolute;
+    z-index: 1;
+    top: 19.3%;
+    right: 31%;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .icons {
+    font-size: 1.2rem;
+    padding-top: 0.4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+  }
+
+  .bloodAndTransplantLogo {
+    position: absolute;
+    z-index: 1;
+    top: 7%;
+    right: 8%;
+    width: 34%;
+    height: auto;
+  }
+
+  .giveBloodLogo {
+    position: absolute;
+    width: 23%;
+    height: auto;
+    z-index: 1;
+    right: 4%;
+    top: 17%;
+  }
+
+  .giveBloodText {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .giveBloodOffer {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .cheekyComment {
+    position: absolute;
+    z-index: 1;
+    top: 23%;
+    right: 31%;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .icons {
+    font-size: 1.2rem;
+    padding-top: 0.4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+  }
+
+  .bloodAndTransplantLogo {
+    position: absolute;
+    z-index: 1;
+    top: 7%;
+    right: 8%;
+    width: 34%;
+    height: auto;
+  }
+
+  .giveBloodLogo {
+    position: absolute;
+    width: 23%;
+    height: auto;
+    z-index: 1;
+    right: 4%;
+    top: 17%;
+  }
+
+  .giveBloodText {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .giveBloodOffer {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .cheekyComment {
+    position: absolute;
+    z-index: 1;
+    top: 26.3%;
+    right: 30%;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .icons {
+    font-size: 1.2rem;
+    padding-top: 0.4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+  }
+
+  .bloodAndTransplantLogo {
+    position: absolute;
+    z-index: 1;
+    top: 7%;
+    right: 8%;
+    width: 34%;
+    height: auto;
+  }
+
+  .giveBloodLogo {
+    position: absolute;
+    width: 23%;
+    height: auto;
+    z-index: 1;
+    right: 5%;
+    top: 19%;
+  }
+
+  .giveBloodText {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .giveBloodOffer {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .cheekyComment {
+    position: absolute;
+    z-index: 1;
+    top: 29%;
+    right: 30%;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1919px) and (orientation: landscape) {
+  .icons {
+    font-size: 1.2rem;
+    padding-top: 0.4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+  }
+
+  .bloodAndTransplantLogo {
+    position: absolute;
+    z-index: 1;
+    top: 7%;
+    right: 8%;
+    width: 34%;
+    height: auto;
+  }
+
+  .giveBloodLogo {
+    position: absolute;
+    width: 23%;
+    height: auto;
+    z-index: 1;
+    right: 5%;
+    top: 19%;
+  }
+
+  .giveBloodText {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .giveBloodOffer {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .cheekyComment {
+    position: absolute;
+    z-index: 1;
+    top: 31%;
+    right: 30%;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+
+/* my laptop screen  */
+@media only screen and (min-width: 1920px) and (orientation: landscape) {
+  .icons {
+    font-size: 1.2rem;
+    padding-top: 0.4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+  }
+
+  .bloodAndTransplantLogo {
+    position: absolute;
+    z-index: 1;
+    top: 7%;
+    right: 8%;
+    width: 34%;
+    height: auto;
+  }
+
+  .giveBloodLogo {
+    position: absolute;
+    width: 23%;
+    height: auto;
+    z-index: 1;
+    right: 5%;
+    top: 19%;
+  }
+
+  .giveBloodText {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .giveBloodOffer {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .cheekyComment {
+    position: absolute;
+    z-index: 1;
+    top: 34%;
+    right: 30%;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+}
+
+/*
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {...} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...}*/
+
+/* @media only screen and (max-width: 410px) and (orientation: portrait) {
   .icons {
     font-size: 0.5rem;
     padding-top: 0.4%;
@@ -494,7 +879,7 @@
     text-align: center;
     font-size: 1rem;
   }
-}
+} */
 
 /* @media only screen and (min-width: 550px) and (max-width: 823px) and (orientation: landscape) {
 } */
