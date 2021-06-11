@@ -61,7 +61,7 @@ function Nav() {
               </Link>
               <Link to="/giveblood">
                 <ReactBootStrap.Nav.Link href="/giveblood">
-                  Give Blood
+                  Give Blood/My tattoo design
                 </ReactBootStrap.Nav.Link>
               </Link>
               {/* <ReactBootStrap.Nav.Link eventKey={2} href="#memes">
