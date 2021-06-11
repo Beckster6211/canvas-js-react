@@ -606,9 +606,27 @@ function GiveBlood() {
 
     ///
     context.beginPath();
+    context.ellipse(203, 142, 7.5, 63, Math.PI / 2, 0, Math.PI * 2);
+    context.lineWidth = 2;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.fillStyle = "white";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.moveTo(141, 143);
+    context.lineTo(140, 150);
+    context.lineTo(149, 146);
+    context.lineWidth = 2;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.fillStyle = "white";
+    context.fill();
+    context.closePath();
+    context.beginPath();
     context.font = "7.5px Comic Sans MS";
     context.fillStyle = "black";
-    context.fillText("FYI - Thats my blood group", 150, 145);
+    context.fillText("FYI - Thats my blood group 😄", 150, 145);
     context.closePath();
   }
   return (
