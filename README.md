@@ -145,6 +145,14 @@ The canvas drawing is of Pipers favourite (there is also an image below of what 
 
 ###### Charmander is my favourite and I've put my own tribute to him on the page as well.
 
+### Give Blood/My tattoo design 🩸
+
+I became a blood donor after being stuck in a bit of a rut with my life and seeing a choir on Britains Got Talent (B Positive) who went on the show to raise awareness for blood donors and blood conditions. I thought that's pretty cool why not 🤷
+<br></br>
+The canvas drawing is inspired by a picture I have done which I hope to have one day as a tattoo. It features Billy Blood drop (who is the mascot for NHS Blood and Transplant) holding a blood bag, the tattoo will have the pipe leading from the bag to my elbow (on the opposite arm to one I donate with)
+
+###### I have also put some videos on there from NHS Give Blood showing what happens when you donate, what happens to the donation and also who it might go to.
+
 ## What to see? :eyes:
 
 If you want to see you can open a localHost version by typing "npm run start" in the terminal
