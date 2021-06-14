@@ -647,20 +647,20 @@ function GiveBlood() {
         <div>
           <img
             className="giveBloodLogo"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRNf2me3w08E372Gc1CZPdiUJ-MouweBbroFicT3JmOpmePYkMIsCucxqPZpkKiz9C4b0&usqp=CAU"
+            src="./images/savealifegiveblood_rgb.jpg"
             // width="100px"
             // height="100px"
             alt="give blood logo"
           />
         </div>
-        <div>
+        {/* <div>
           <img
             className="bloodAndTransplantLogo"
             src="https://nhsbtdbe.blob.core.windows.net/umbraco-assets-corp/3760/nhsbt-left-align_scaled.svg"
             // width="100px"
             alt="blood and transparent logo"
           />
-        </div>
+        </div> */}
         {/* <p className="cheekyComment">FYI - Thats my blood type 😄 </p> */}
         <div className="video">
           <div className="giveBloodVideo">

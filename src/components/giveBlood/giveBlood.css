@@ -24,14 +24,14 @@
   top: 25%;
 }
 
-.bloodAndTransplantLogo {
+/* .bloodAndTransplantLogo {
   position: absolute;
   z-index: 1;
   top: 8%;
   right: 10%;
   width: 28%;
   height: auto;
-}
+} */
 
 .giveBloodVideo {
   padding: 1%;
@@ -75,22 +75,22 @@
     font-size: 0.6rem;
   }
 
-  .bloodAndTransplantLogo {
+  /* .bloodAndTransplantLogo {
     position: absolute;
     z-index: 1;
     top: 5%;
     right: 10%;
     width: 33%;
     height: auto;
-  }
+  } */
 
   .giveBloodLogo {
     position: absolute;
-    width: 24%;
+    width: 33%;
     height: auto;
     z-index: 1;
-    right: 5%;
-    top: 9%;
+    right: 7%;
+    top: 6.3%;
   }
 
   .giveBloodVideo {
@@ -117,22 +117,22 @@
     font-size: 0.7rem;
   }
 
-  .bloodAndTransplantLogo {
+  /* .bloodAndTransplantLogo {
     position: absolute;
     z-index: 1;
     top: 6%;
     right: 10%;
     width: 33%;
     height: auto;
-  }
+  } */
 
   .giveBloodLogo {
     position: absolute;
-    width: 24%;
+    width: 33%;
     height: auto;
     z-index: 1;
-    right: 5%;
-    top: 11%;
+    right: 7%;
+    top: 7%;
   }
 
   .giveBloodVideo {
@@ -159,22 +159,22 @@
     font-size: 0.9rem;
   }
 
-  .bloodAndTransplantLogo {
+  /* .bloodAndTransplantLogo {
     position: absolute;
     z-index: 1;
     top: 6%;
     right: 10%;
     width: 33%;
     height: auto;
-  }
+  } */
 
   .giveBloodLogo {
     position: absolute;
-    width: 24%;
+    width: 33%;
     height: auto;
     z-index: 1;
-    right: 5%;
-    top: 13%;
+    right: 7%;
+    top: 7%;
   }
 
   .giveBloodVideo {
@@ -201,22 +201,22 @@
     font-size: 1rem;
   }
 
-  .bloodAndTransplantLogo {
+  /* .bloodAndTransplantLogo {
     position: absolute;
     z-index: 1;
     top: 6%;
     right: 10%;
     width: 33%;
     height: auto;
-  }
+  } */
 
   .giveBloodLogo {
     position: absolute;
-    width: 24%;
+    width: 35%;
     height: auto;
     z-index: 1;
-    right: 5%;
-    top: 15%;
+    right: 7%;
+    top: 8%;
   }
 
   .giveBloodVideo {
@@ -243,22 +243,22 @@
     font-size: 1.2rem;
   }
 
-  .bloodAndTransplantLogo {
+  /* .bloodAndTransplantLogo {
     position: absolute;
     z-index: 1;
     top: 6%;
     right: 10%;
     width: 33%;
     height: auto;
-  }
+  } */
 
   .giveBloodLogo {
     position: absolute;
-    width: 24%;
+    width: 35%;
     height: auto;
     z-index: 1;
-    right: 5%;
-    top: 18%;
+    right: 7%;
+    top: 8%;
   }
 
   .giveBloodVideo {
