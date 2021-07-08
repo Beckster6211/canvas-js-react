@@ -301,15 +301,41 @@ function Xmas() {
     context.fillStyle = "black";
     context.fill();
     context.closePath();
-
-    //     //snowmanNose
-    // snowman.beginPath();
-    // snowman.moveTo(1540, 530);
-    // snowman.lineTo(1550, 508);
-    // snowman.lineTo(1530, 508);
-    // snowman.fillStyle = "orange";
-    // snowman.fill();
-    // snowman.closePath();
+    // nose
+    context.beginPath();
+    context.moveTo(52, 80);
+    context.lineTo(54.5, 84);
+    context.lineTo(57, 80);
+    context.lineTo(52, 80);
+    context.fillStyle = "orange";
+    context.fill();
+    context.closePath();
+    // mouth
+    context.beginPath();
+    context.arc(48, 83, 1, 0, Math.PI * 2, true);
+    context.fillStyle = "black";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.arc(51, 86, 1, 0, Math.PI * 2, true);
+    context.fillStyle = "black";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.arc(55, 87, 1, 0, Math.PI * 2, true);
+    context.fillStyle = "black";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.arc(59, 86, 1, 0, Math.PI * 2, true);
+    context.fillStyle = "black";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.arc(62, 83, 1, 0, Math.PI * 2, true);
+    context.fillStyle = "black";
+    context.fill();
+    context.closePath();
 
     // ////
     // //body
