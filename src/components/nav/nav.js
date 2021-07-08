@@ -9,6 +9,7 @@ import Mickey from "../mickey/mickey";
 import PandaTrex from "../pandaTrex/pandaTrex";
 import Piper from "../piper/piper";
 import GiveBlood from "../giveBlood/giveBlood";
+import Xmas from "../xmas/xmas";
 
 function Nav() {
   const renderTooltip = (props) => (
@@ -64,6 +65,11 @@ function Nav() {
                   Give Blood/My tattoo design
                 </ReactBootStrap.Nav.Link>
               </Link>
+              <Link to="/xmashouse">
+                <ReactBootStrap.Nav.Link href="/xmashouse">
+                  Merry Christmas
+                </ReactBootStrap.Nav.Link>
+              </Link>
               {/* <ReactBootStrap.Nav.Link eventKey={2} href="#memes">
                 Dank memes
               </ReactBootStrap.Nav.Link> */}
@@ -71,6 +77,9 @@ function Nav() {
           </ReactBootStrap.Navbar.Collapse>
         </ReactBootStrap.Navbar>
         <Switch>
+          <Route path="/xmashouse">
+            <Xmas />
+          </Route>
           <Route path="/giveblood">
             <GiveBlood />
           </Route>
