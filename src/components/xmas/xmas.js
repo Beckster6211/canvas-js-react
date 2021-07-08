@@ -104,6 +104,52 @@ function Xmas() {
     context.fillStyle = "darkGoldenRod";
     context.fill();
     context.closePath();
+    // door window
+    context.beginPath();
+    context.ellipse(154.5, 96, 3, 6, Math.PI / 2, 0, Math.PI * 2);
+    context.fillStyle = "lightYellow";
+    context.fill();
+    context.lineWidth = 1.5;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    // pattern
+    context.beginPath();
+    context.moveTo(154.5, 93);
+    context.lineTo(154.5, 98);
+    context.moveTo(148, 96);
+    context.lineTo(160, 96);
+    context.lineWidth = 1.3;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    // wreath
+    context.beginPath();
+    context.arc(154.5, 103, 3, 0, Math.PI * 2, true);
+    context.lineWidth = 1.4;
+    context.strokeStyle = "green";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.arc(154.5, 106, 1.5, 0, Math.PI * 2, true);
+    context.fillStyle = "red";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.moveTo(154, 106);
+    context.lineTo(152, 109);
+    context.moveTo(154, 106);
+    context.lineTo(157, 109);
+    context.lineWidth = 1;
+    context.strokeStyle = "red";
+    context.stroke();
+    context.closePath();
+    // doorknob
+    context.beginPath();
+    context.arc(148, 110, 1, 0, Math.PI * 2, true);
+    context.fillStyle = "black";
+    context.fill();
+    context.closePath();
 
     //window 1
     context.beginPath();
@@ -141,44 +187,6 @@ function Xmas() {
     context.strokeStyle = "white";
     context.stroke();
     context.closePath();
-
-    // context.beginPath();
-    // context.bezierCurveTo(214, 100, 212, 96, 212, 96);
-    // context.lineWidth = 1;
-    // context.strokeStyle = "black";
-    // context.stroke();
-    // context.closePath();
-    // context.beginPath();
-    // context.bezierCurveTo(225, 99, 220, 96, 219, 96);
-    // context.lineWidth = 1;
-    // context.strokeStyle = "black";
-    // context.stroke();
-    // context.closePath();
-    // context.beginPath();
-    // context.bezierCurveTo(225, 92, 221, 90, 220, 92);
-    // context.lineWidth = 1;
-    // context.strokeStyle = "black";
-    // context.stroke();
-    // context.closePath();
-
-    // context.beginPath();
-    // context.bezierCurveTo(165, 107, 165, 103, 168, 103);
-    // context.lineWidth = 1;
-    // context.strokeStyle = "black";
-    // context.stroke();
-    // context.closePath();
-    // context.beginPath();
-    // context.bezierCurveTo(168, 112, 168, 110, 171, 106);
-    // context.lineWidth = 1;
-    // context.strokeStyle = "black";
-    // context.stroke();
-    // context.closePath();
-    // context.beginPath();
-    // context.bezierCurveTo(175, 112, 178, 110, 175, 104);
-    // context.lineWidth = 1;
-    // context.strokeStyle = "black";
-    // context.stroke();
-    // context.closePath();
 
     // ////
     // //body
