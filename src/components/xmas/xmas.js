@@ -352,6 +352,19 @@ function Xmas() {
     context.fillStyle = "black";
     context.fill();
     context.closePath();
+    // scarf
+    context.beginPath();
+    context.bezierCurveTo(45, 88, 56, 95, 65, 88);
+    context.lineWidth = 3;
+    context.strokeStyle = "purple";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.bezierCurveTo(62, 90, 68, 93, 65, 100);
+    context.lineWidth = 3;
+    context.strokeStyle = "purple";
+    context.stroke();
+    context.closePath();
 
     // ////
     // //body
