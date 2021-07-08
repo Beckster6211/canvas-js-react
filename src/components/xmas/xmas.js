@@ -262,20 +262,59 @@ function Xmas() {
     context.stroke();
     context.closePath();
 
+    // snowman
+    //body
+    context.beginPath();
+    context.arc(55, 125, 17, 0, Math.PI * 2, true);
+    context.fillStyle = "white";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.arc(55, 100, 15, 0, Math.PI * 2, true);
+    context.fillStyle = "white";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.arc(55, 80, 12, 0, Math.PI * 2, true);
+    context.fillStyle = "white";
+    context.fill();
+    context.closePath();
+    // hat
+    context.beginPath();
+    context.rect(44, 67, 21, 4);
+    context.fillStyle = "black";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.rect(47, 53, 15, 14);
+    context.fillStyle = "black";
+    context.fill();
+    context.closePath();
+    // eyes
+    context.beginPath();
+    context.arc(51, 76, 1, 0, Math.PI * 2, true);
+    context.fillStyle = "black";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.arc(58, 76, 1, 0, Math.PI * 2, true);
+    context.fillStyle = "black";
+    context.fill();
+    context.closePath();
+
+    //     //snowmanNose
+    // snowman.beginPath();
+    // snowman.moveTo(1540, 530);
+    // snowman.lineTo(1550, 508);
+    // snowman.lineTo(1530, 508);
+    // snowman.fillStyle = "orange";
+    // snowman.fill();
+    // snowman.closePath();
+
     // ////
     // //body
     // context.beginPath();
     // context.ellipse(187, 84, 25, 15, Math.PI / 2.4, 0, Math.PI * 2);
-    // context.fillStyle = "mediumPurple";
-    // context.fill();
-    // context.lineWidth = "1";
-    // context.strokeStyle = "black";
-    // context.stroke();
-    // context.closePath();
-
-    // //head
-    // context.beginPath();
-    // context.arc(177, 50, 15, 0, Math.PI * 2, false);
     // context.fillStyle = "mediumPurple";
     // context.fill();
     // context.lineWidth = "1";
