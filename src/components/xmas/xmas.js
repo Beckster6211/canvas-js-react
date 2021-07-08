@@ -336,6 +336,22 @@ function Xmas() {
     context.fillStyle = "black";
     context.fill();
     context.closePath();
+    // buttons
+    context.beginPath();
+    context.arc(55, 98, 2, 0, Math.PI * 2, true);
+    context.fillStyle = "black";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.arc(55, 112, 2, 0, Math.PI * 2, true);
+    context.fillStyle = "black";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.arc(55, 127, 2, 0, Math.PI * 2, true);
+    context.fillStyle = "black";
+    context.fill();
+    context.closePath();
 
     // ////
     // //body
