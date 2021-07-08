@@ -151,7 +151,7 @@ function Xmas() {
     context.fill();
     context.closePath();
 
-    //window 1
+    //window #1
     context.beginPath();
     context.rect(145, 63, 18, 13);
     context.fillStyle = "purple";
@@ -188,7 +188,7 @@ function Xmas() {
     context.stroke();
     context.closePath();
 
-    // window 2
+    // window #2
     context.beginPath();
     context.rect(192, 63, 18, 13);
     context.fillStyle = "purple";
@@ -225,7 +225,7 @@ function Xmas() {
     context.stroke();
     context.closePath();
 
-    // window 3
+    // window #3
     context.beginPath();
     context.rect(192, 95, 18, 13);
     context.fillStyle = "purple";
