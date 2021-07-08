@@ -188,6 +188,43 @@ function Xmas() {
     context.stroke();
     context.closePath();
 
+    // window 2
+    context.beginPath();
+    context.rect(192, 63, 18, 13);
+    context.fillStyle = "purple";
+    context.fill();
+    context.closePath();
+    // window pattern
+    context.beginPath();
+    context.rect(192, 63, 18, 13);
+    context.strokeStyle = "black";
+    context.lineWidth = 1.5;
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.moveTo(201, 64);
+    context.lineTo(201, 76);
+    context.moveTo(192, 69.5);
+    context.lineTo(210, 69.5);
+    context.strokeStyle = "black";
+    context.lineWidth = 1.4;
+    context.stroke();
+    context.closePath();
+    // under window
+    context.beginPath();
+    context.rect(188, 76.5, 26, 4);
+    context.fillStyle = "grey";
+    context.fill();
+    context.closePath();
+    // snow
+    context.beginPath();
+    context.moveTo(190, 76);
+    context.lineTo(212, 76);
+    context.lineWidth = 1.5;
+    context.strokeStyle = "white";
+    context.stroke();
+    context.closePath();
+
     // ////
     // //body
     // context.beginPath();
