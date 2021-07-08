@@ -62,55 +62,21 @@ function Xmas() {
     context.fill();
     context.closePath();
 
+    //smoke
+    context.beginPath();
+    context.bezierCurveTo(201, 15, 198, 18, 200, 20);
+    context.moveTo(201, 15);
+    context.bezierCurveTo(200, 8, 195, 15, 200, 6);
+    context.lineWidth = 2;
+    context.strokeStyle = "grey";
+    context.stroke();
+    context.closePath();
     //chimney
     context.beginPath();
     context.rect(195, 20, 8, 20);
     context.fillStyle = "black";
     context.fill();
     context.closePath();
-    //smoke
-    context.beginPath();
-    context.bezierCurveTo(201, 15, 198, 18, 200, 20);
-    context.bezierCurveTo(180, 15, 180, 15, 200, 10);
-    context.lineWidth = 2;
-    context.strokeStyle = "grey";
-    context.stroke();
-    context.closePath();
-
-    // context.bezierCurveTo(225, 99, 220, 96, 219, 96);
-
-    // context.beginPath();
-    // context.arc(200, 18, 3, 0, Math.PI * 2, false);
-    // context.fillStyle = "grey";
-    // context.fill();
-    // context.closePath();
-    // context.beginPath();
-    // context.arc(198, 15, 3, 0, Math.PI * 2, false);
-    // context.fillStyle = "grey";
-    // context.fill();
-    // context.closePath();
-    // context.beginPath();
-    // context.arc(200, 12, 3, 0, Math.PI * 2, false);
-    // context.fillStyle = "grey";
-    // context.fill();
-    // context.closePath();
-    // context.beginPath();
-    // context.arc(197, 9, 3, 0, Math.PI * 2, false);
-    // context.fillStyle = "grey";
-    // context.fill();
-    // context.closePath();
-    // context.beginPath();
-    // context.arc(200, 6, 3, 0, Math.PI * 2, false);
-    // context.fillStyle = "grey";
-    // context.fill();
-    // context.closePath();
-
-    //     let smoke = canvas.getContext("2d");
-    // smoke.beginPath();
-    // smoke.arc(693, 150, 15, 0, Math.PI * 2, false);
-    // smoke.fillStyle = "grey";
-    // smoke.fill();
-    // smoke.closePath();
 
     //roof
     context.beginPath();
@@ -127,6 +93,50 @@ function Xmas() {
     context.lineTo(179, 20);
     context.lineTo(225, 55);
     context.lineCap = "round";
+    context.lineWidth = 1.5;
+    context.strokeStyle = "white";
+    context.stroke();
+    context.closePath();
+
+    //door
+    context.beginPath();
+    context.rect(145, 90, 20, 35);
+    context.fillStyle = "darkGoldenRod";
+    context.fill();
+    context.closePath();
+
+    //window 1
+    context.beginPath();
+    context.rect(145, 63, 18, 13);
+    context.fillStyle = "purple";
+    context.fill();
+    context.closePath();
+    //window pattern
+    context.beginPath();
+    context.rect(145, 63, 18, 13);
+    context.strokeStyle = "black";
+    context.lineWidth = 1.5;
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.moveTo(154, 64);
+    context.lineTo(154, 76);
+    context.moveTo(145, 69.5);
+    context.lineTo(162, 69.5);
+    context.strokeStyle = "black";
+    context.lineWidth = 1.4;
+    context.stroke();
+    context.closePath();
+    //under window
+    context.beginPath();
+    context.rect(141, 76.5, 26, 4);
+    context.fillStyle = "grey";
+    context.fill();
+    context.closePath();
+    // snow
+    context.beginPath();
+    context.moveTo(143, 76);
+    context.lineTo(164, 76);
     context.lineWidth = 1.5;
     context.strokeStyle = "white";
     context.stroke();
