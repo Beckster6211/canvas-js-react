@@ -82,12 +82,16 @@ function Nav() {
                     Most wonderful time of the year
                   </ReactBootStrap.NavDropdown.Item>
                 </Link>
-                <ReactBootStrap.NavDropdown.Item href="/xmastree">
-                  Lit up like a star
-                </ReactBootStrap.NavDropdown.Item>
-                <ReactBootStrap.NavDropdown.Item href="/xmassnowman">
-                  He's a jolly happy soul
-                </ReactBootStrap.NavDropdown.Item>
+                <Link to="/xmastree">
+                  <ReactBootStrap.NavDropdown.Item href="/xmastree">
+                    Lit up like a star
+                  </ReactBootStrap.NavDropdown.Item>
+                </Link>
+                <Link to="xmassnowman">
+                  <ReactBootStrap.NavDropdown.Item href="/xmassnowman">
+                    He's a jolly happy soul
+                  </ReactBootStrap.NavDropdown.Item>
+                </Link>
                 {/* <ReactBootStrap.NavDropdown.Item href="#action/3.2">
                   Another action
                 </ReactBootStrap.NavDropdown.Item>
