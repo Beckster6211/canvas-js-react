@@ -77,9 +77,11 @@ function Nav() {
                 title="Christmas"
                 id="basic-nav-dropdown"
               >
-                <ReactBootStrap.NavDropdown.Item href="/xmashouse">
-                  Most wonderful time of the year
-                </ReactBootStrap.NavDropdown.Item>
+                <Link to="/xmashouse">
+                  <ReactBootStrap.NavDropdown.Item href="/xmashouse">
+                    Most wonderful time of the year
+                  </ReactBootStrap.NavDropdown.Item>
+                </Link>
                 <ReactBootStrap.NavDropdown.Item href="/xmastree">
                   Lit up like a star
                 </ReactBootStrap.NavDropdown.Item>
