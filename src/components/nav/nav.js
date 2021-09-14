@@ -10,6 +10,8 @@ import PandaTrex from "../pandaTrex/pandaTrex";
 import Piper from "../piper/piper";
 import GiveBlood from "../giveBlood/giveBlood";
 import Xmas from "../xmas/xmas";
+import XmasTree from "../xmasTree/xmasTree";
+import XmasSnowman from "../xmasSnowman/xmasSnowman";
 
 function Nav() {
   const renderTooltip = (props) => (
@@ -65,11 +67,36 @@ function Nav() {
                   Give Blood/My tattoo design
                 </ReactBootStrap.Nav.Link>
               </Link>
-              <Link to="/xmashouse">
+              {/* <Link to="/xmashouse">
                 <ReactBootStrap.Nav.Link href="/xmashouse">
                   Merry Christmas
                 </ReactBootStrap.Nav.Link>
-              </Link>
+              </Link> */}
+              {/* drop down for xmas */}
+              <ReactBootStrap.NavDropdown
+                title="Christmas"
+                id="basic-nav-dropdown"
+              >
+                <ReactBootStrap.NavDropdown.Item href="/xmashouse">
+                  Most wonderful time of the year
+                </ReactBootStrap.NavDropdown.Item>
+                <ReactBootStrap.NavDropdown.Item href="/xmastree">
+                  Lit up like a star
+                </ReactBootStrap.NavDropdown.Item>
+                <ReactBootStrap.NavDropdown.Item href="/xmassnowman">
+                  He's a jolly happy soul
+                </ReactBootStrap.NavDropdown.Item>
+                {/* <ReactBootStrap.NavDropdown.Item href="#action/3.2">
+                  Another action
+                </ReactBootStrap.NavDropdown.Item>
+                <ReactBootStrap.NavDropdown.Item href="#action/3.3">
+                  Something
+                </ReactBootStrap.NavDropdown.Item> */}
+                {/* <ReactBootStrap.NavDropdown.Divider /> */}
+                {/* <ReactBootStrap.NavDropdown.Item href="#action/3.4">
+                  Separated link
+                </ReactBootStrap.NavDropdown.Item> */}
+              </ReactBootStrap.NavDropdown>
               {/* <ReactBootStrap.Nav.Link eventKey={2} href="#memes">
                 Dank memes
               </ReactBootStrap.Nav.Link> */}
@@ -77,6 +104,12 @@ function Nav() {
           </ReactBootStrap.Navbar.Collapse>
         </ReactBootStrap.Navbar>
         <Switch>
+          <Route path="/xmassnowman">
+            <XmasSnowman />
+          </Route>
+          <Route path="/xmastree">
+            <XmasTree />
+          </Route>
           <Route path="/xmashouse">
             <Xmas />
           </Route>
