@@ -51,29 +51,30 @@ function XmasSnowman() {
     context.closePath();
 
     // snowman
-    // // arms
-    // context.beginPath();
-    // context.moveTo(39, 97);
-    // context.lineTo(25, 90);
-    // context.moveTo(32, 93);
-    // context.lineTo(28, 85);
-    // context.moveTo(32, 93);
-    // context.lineTo(24, 96);
-    // context.lineWidth = 3;
-    // context.strokeStyle = "saddleBrown";
-    // context.stroke();
-    // context.closePath();
-    // context.beginPath();
-    // context.moveTo(70, 97);
-    // context.lineTo(82, 90);
-    // context.moveTo(76, 93);
-    // context.lineTo(78, 85);
-    // context.moveTo(76, 93);
-    // context.lineTo(84, 96);
-    // context.lineWidth = 3;
-    // context.strokeStyle = "saddleBrown";
-    // context.stroke();
-    // context.closePath();
+    // arms
+    context.beginPath();
+    context.moveTo(129, 82);
+    context.lineTo(105, 73);
+    context.moveTo(118, 78);
+    context.lineTo(106, 85);
+    context.moveTo(117, 77);
+    context.lineTo(113, 64);
+    context.lineWidth = 4;
+    context.strokeStyle = "saddleBrown";
+    context.stroke();
+    context.closePath();
+    //
+    context.beginPath();
+    context.moveTo(167, 82);
+    context.lineTo(185, 73);
+    context.moveTo(175, 79);
+    context.lineTo(176, 66);
+    context.moveTo(187, 85);
+    context.lineTo(173, 77);
+    context.lineWidth = 4;
+    context.strokeStyle = "saddleBrown";
+    context.stroke();
+    context.closePath();
 
     //body
     context.beginPath();
