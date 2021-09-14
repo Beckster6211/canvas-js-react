@@ -69,7 +69,7 @@ function XmasSnowman() {
     context.lineTo(185, 73);
     context.moveTo(175, 79);
     context.lineTo(176, 66);
-    context.moveTo(187, 85);
+    context.moveTo(187, 84);
     context.lineTo(173, 77);
     context.lineWidth = 4;
     context.strokeStyle = "saddleBrown";
@@ -165,26 +165,26 @@ function XmasSnowman() {
     context.fillStyle = "black";
     context.fill();
     context.closePath();
-    // // scarf
-    // context.beginPath();
-    // context.bezierCurveTo(45, 88, 56, 95, 65, 88);
-    // context.lineWidth = 3;
-    // context.strokeStyle = "purple";
-    // context.stroke();
-    // context.closePath();
-    // context.beginPath();
-    // context.bezierCurveTo(62, 90, 68, 93, 65, 100);
-    // context.lineWidth = 3;
-    // context.strokeStyle = "purple";
-    // context.stroke();
-    // context.closePath();
+    // scarf
+    context.beginPath();
+    context.bezierCurveTo(132, 68, 150, 75, 163, 68);
+    context.lineWidth = 5;
+    context.strokeStyle = "darkBlue";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.bezierCurveTo(160, 66, 163, 70, 163, 87);
+    context.lineWidth = 4;
+    context.strokeStyle = "darkRed";
+    context.stroke();
+    context.closePath();
 
-    // // message
-    // context.beginPath();
-    // context.font = "16px Comic Sans MS";
-    // context.fillStyle = "black";
-    // context.fillText("Don't be down", 10, 57);
-    // context.closePath();
+    // message
+    context.beginPath();
+    context.font = "16px Comic Sans MS";
+    context.fillStyle = "black";
+    context.fillText("Up the Villa!", 10, 57);
+    context.closePath();
   }
   return (
     <div className="App">
