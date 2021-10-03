@@ -150,6 +150,26 @@ function Halloween() {
     context.fill();
     context.closePath();
 
+    // computer face
+    context.beginPath();
+    context.bezierCurveTo(208, 70, 216, 65, 222, 72);
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.bezierCurveTo(227, 72.5, 235, 67, 240, 74.5);
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+    context.beginPath();
+    context.bezierCurveTo(208, 87, 225, 75, 235, 91);
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+
     /*
     context.beginPath();
     context.ellipse(60, 60, 6.5, 2.5, Math.PI / 1, 0, Math.PI * 2);
