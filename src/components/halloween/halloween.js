@@ -170,6 +170,20 @@ function Halloween() {
     context.stroke();
     context.closePath();
 
+    // spider
+    context.beginPath();
+    context.ellipse(30, 120, 6, 3, Math.PI / 1.1, 0, Math.PI * 2);
+    context.fillStyle = "black";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.bezierCurveTo(25, 120, 19, 120, 17, 123);
+    // context.moveTo();
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+
     /*
     context.beginPath();
     context.ellipse(60, 60, 6.5, 2.5, Math.PI / 1, 0, Math.PI * 2);
