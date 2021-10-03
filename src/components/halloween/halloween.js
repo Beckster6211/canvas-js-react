@@ -171,6 +171,14 @@ function Halloween() {
     context.closePath();
 
     // spider
+    // web
+    context.beginPath();
+    context.moveTo(20, 0);
+    context.lineTo(30, 120);
+    context.lineWidth = 1.2;
+    context.strokeStyle = "darkGrey";
+    context.stroke();
+    context.closePath();
     context.beginPath();
     context.ellipse(30, 121, 7, 4, Math.PI / 1.1, 0, Math.PI * 2);
     context.fillStyle = "black";
