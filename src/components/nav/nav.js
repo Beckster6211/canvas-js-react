@@ -12,6 +12,7 @@ import GiveBlood from "../giveBlood/giveBlood";
 import Xmas from "../xmas/xmas";
 import XmasTree from "../xmasTree/xmasTree";
 import XmasSnowman from "../xmasSnowman/xmasSnowman";
+import Halloween from "../halloween/halloween";
 
 function Nav() {
   const renderTooltip = (props) => (
@@ -103,6 +104,11 @@ function Nav() {
                   Separated link
                 </ReactBootStrap.NavDropdown.Item> */}
               </ReactBootStrap.NavDropdown>
+              <Link to="/halloween">
+                <ReactBootStrap.Nav.Link href="/halloween">
+                  True Coding Horror
+                </ReactBootStrap.Nav.Link>
+              </Link>
               {/* <ReactBootStrap.Nav.Link eventKey={2} href="#memes">
                 Dank memes
               </ReactBootStrap.Nav.Link> */}
@@ -110,6 +116,9 @@ function Nav() {
           </ReactBootStrap.Navbar.Collapse>
         </ReactBootStrap.Navbar>
         <Switch>
+          <Route path="/halloween">
+            <Halloween />
+          </Route>
           <Route path="/xmassnowman">
             <XmasSnowman />
           </Route>
