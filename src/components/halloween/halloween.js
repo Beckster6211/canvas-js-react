@@ -263,8 +263,47 @@ function Halloween() {
     context.font = "15px Times New Roman";
     context.fillStyle = "black";
     context.fillText("How can you", 95, 110);
-    context.fillText("say that!", 115, 125);
+    context.fillText("say that!", 110, 124);
     context.closePath();
+
+    // computer tears
+    // one side
+    context.beginPath();
+    context.ellipse(200, 64, 6, 2, Math.PI * 1.2, 0, Math.PI * 2);
+    context.ellipse(188, 57, 6, 2, Math.PI * 1.1, 0, Math.PI * 2);
+    context.fillStyle = "blue";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(173, 54, 6, 2, Math.PI * 1, 0, Math.PI * 2);
+    context.ellipse(157, 57, 6, 2, Math.PI / 1.1, 0, Math.PI * 2);
+    context.fillStyle = "blue";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(143, 64, 6, 2, Math.PI / 1.2, 0, Math.PI * 2);
+    context.fillStyle = "blue";
+    context.fill();
+    context.closePath();
+    // tears other side
+    context.beginPath();
+    context.ellipse(248, 70, 6, 2, Math.PI / 1.2, 0, Math.PI * 2);
+    context.ellipse(260, 63, 6, 2, Math.PI / 1.1, 0, Math.PI * 2);
+    context.fillStyle = "blue";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(275, 58, 6, 2, Math.PI * 1, 0, Math.PI * 2);
+    context.ellipse(290, 61, 6, 2, Math.PI * 1.1, 0, Math.PI * 2);
+    context.fillStyle = "blue";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.ellipse(302, 69, 6, 2, Math.PI * 1.2, 0, Math.PI * 2);
+    context.fillStyle = "blue";
+    context.fill();
+    context.closePath();
+
     /*
     context.ellipse(60, 60, 6.5, 2.5, Math.PI / 1, 0, Math.PI * 2);
     // context.bezierCurveTo(132, 68, 150, 75, 163, 68);
