@@ -189,6 +189,19 @@ function Halloween() {
     context.strokeStyle = "black";
     context.stroke();
     context.closePath();
+    // leg other side
+    context.beginPath();
+    context.bezierCurveTo(35, 118, 35, 115, 42, 114);
+    context.moveTo(37, 120);
+    context.bezierCurveTo(35, 120, 38, 115, 43, 117);
+    context.moveTo(37, 122);
+    context.bezierCurveTo(35, 122, 38, 117, 45, 120);
+    context.moveTo(35, 124);
+    context.bezierCurveTo(35, 122, 40, 120, 45, 123);
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
 
     /*
     context.beginPath();
