@@ -211,62 +211,70 @@ function Halloween() {
     context.stroke();
     context.closePath();
 
-    /*
+    // message to computer
+    // speech bubble
     context.beginPath();
-    context.ellipse(60, 60, 6.5, 2.5, Math.PI / 1, 0, Math.PI * 2);
-    context.fillStyle = "black";
+    context.ellipse(62, 21, 50, 15, Math.PI / 1, 0, Math.PI * 2);
+    context.lineWidth = 2;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.fillStyle = "white";
     context.fill();
     context.closePath();
-    */
+    context.beginPath();
+    context.moveTo(13, 18);
+    context.lineTo(2, 25);
+    context.lineTo(14, 25);
+    context.lineWidth = 2;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.fillStyle = "white";
+    context.fill();
+    context.closePath();
+    // actual text
+    context.beginPath();
+    context.font = "15px Times New Roman";
+    context.fillStyle = "black";
+    context.fillText("It's just a bug?", 20, 25);
+    context.closePath();
+
+    // computer speech
+    // speech bubble
+    context.beginPath();
+    context.ellipse(134, 111, 50, 20, Math.PI / 1, 0, Math.PI * 2);
+    context.lineWidth = 2;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.fillStyle = "white";
+    context.fill();
+    context.closePath();
+    context.beginPath();
+    context.moveTo(177, 101);
+    context.lineTo(190, 100);
+    context.lineTo(184, 110);
+    context.lineWidth = 2;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.fillStyle = "white";
+    context.fill();
+    context.closePath();
+    // actual text
+    context.beginPath();
+    context.font = "15px Times New Roman";
+    context.fillStyle = "black";
+    context.fillText("How can you", 95, 110);
+    context.fillText("say that!", 115, 125);
+    context.closePath();
+    /*
+    context.ellipse(60, 60, 6.5, 2.5, Math.PI / 1, 0, Math.PI * 2);
     // context.bezierCurveTo(132, 68, 150, 75, 163, 68);
-    // //body
-    // context.beginPath();
     // context.arc(148, 120, 24, 0, Math.PI * 2, true);
-    // context.fillStyle = "white";
-    // context.fill();
-    // context.closePath();
-    // context.beginPath();
-    // context.arc(148, 82, 20, 0, Math.PI * 2, true);
-    // context.fillStyle = "white";
-    // context.fill();
-    // context.closePath();
-    // context.beginPath();
-    // context.arc(148, 55, 16, 0, Math.PI * 2, true);
-    // context.fillStyle = "white";
-    // context.fill();
-    // context.closePath();
-    // // hat
-    // context.beginPath();
     // context.rect(130, 35, 35, 8);
-    // context.fillStyle = "black";
-    // context.fill();
-    // context.closePath();
-    // context.beginPath();
-    // context.rect(135, 15, 25, 20);
-    // context.fillStyle = "black";
-    // context.fill();
-    // context.closePath();
-
-    // // scarf
-    // context.beginPath();
     // context.bezierCurveTo(132, 68, 150, 75, 163, 68);
-    // context.lineWidth = 5;
-    // context.strokeStyle = "darkBlue";
-    // context.stroke();
-    // context.closePath();
-    // context.beginPath();
-    // context.bezierCurveTo(160, 66, 163, 70, 163, 87);
-    // context.lineWidth = 4;
-    // context.strokeStyle = "darkRed";
-    // context.stroke();
-    // context.closePath();
-
-    // // message
-    // context.beginPath();
     // context.font = "16px Comic Sans MS";
     // context.fillStyle = "black";
     // context.fillText("Up the Villa!", 10, 57);
-    // context.closePath();
+    */
   }
   return (
     <div className="App">
