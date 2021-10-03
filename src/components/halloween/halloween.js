@@ -172,13 +172,19 @@ function Halloween() {
 
     // spider
     context.beginPath();
-    context.ellipse(30, 120, 6, 3, Math.PI / 1.1, 0, Math.PI * 2);
+    context.ellipse(30, 121, 7, 4, Math.PI / 1.1, 0, Math.PI * 2);
     context.fillStyle = "black";
     context.fill();
     context.closePath();
+    // leg one side
     context.beginPath();
     context.bezierCurveTo(25, 120, 19, 120, 17, 123);
-    // context.moveTo();
+    context.moveTo(26, 122);
+    context.bezierCurveTo(25, 121, 19, 122, 18, 126);
+    context.moveTo(27, 122);
+    context.bezierCurveTo(25, 123, 19, 125, 20, 128);
+    context.moveTo(28, 123);
+    context.bezierCurveTo(28, 124, 20, 127, 22, 130);
     context.lineWidth = 1;
     context.strokeStyle = "black";
     context.stroke();
