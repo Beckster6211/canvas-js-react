@@ -214,7 +214,7 @@ function Halloween() {
     // message to computer
     // speech bubble
     context.beginPath();
-    context.ellipse(62, 21, 50, 15, Math.PI / 1, 0, Math.PI * 2);
+    context.ellipse(78, 21, 66, 15, Math.PI / 1, 0, Math.PI * 2);
     context.lineWidth = 2;
     context.strokeStyle = "black";
     context.stroke();
@@ -235,13 +235,13 @@ function Halloween() {
     context.beginPath();
     context.font = "15px Times New Roman";
     context.fillStyle = "black";
-    context.fillText("It's just a bug?", 20, 25);
+    context.fillText("It's just a little bug?", 20, 25);
     context.closePath();
 
     // computer speech
     // speech bubble
     context.beginPath();
-    context.ellipse(134, 111, 50, 20, Math.PI / 1, 0, Math.PI * 2);
+    context.ellipse(141, 108, 43, 13, Math.PI / 1, 0, Math.PI * 2);
     context.lineWidth = 2;
     context.strokeStyle = "black";
     context.stroke();
@@ -262,8 +262,9 @@ function Halloween() {
     context.beginPath();
     context.font = "15px Times New Roman";
     context.fillStyle = "black";
-    context.fillText("How can you", 95, 110);
-    context.fillText("say that!", 110, 124);
+    context.fillText("No its not!!!", 105, 113);
+    // context.fillText("How can you", 95, 110);
+    // context.fillText("say that!", 110, 124);
     context.closePath();
 
     // computer tears
